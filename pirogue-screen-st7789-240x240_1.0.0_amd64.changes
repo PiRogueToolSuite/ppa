@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 21 Feb 2022 15:41:06 +0100
+Source: pirogue-screen-st7789-240x240
+Binary: pirogue-screen-st7789-240x240
+Built-For-Profiles: noudeb
+Architecture: source amd64
+Version: 1.0.0
+Distribution: unstable
+Urgency: medium
+Maintainer: U+039b <hello@pts-project.org>
+Changed-By: U+039b <hello@pts-project.org>
+Description:
+ pirogue-screen-st7789-240x240 - Provision PiRogue 240x240px ST7789 screeen driver
+Changes:
+ pirogue-screen-st7789-240x240 (1.0.0) unstable; urgency=medium
+ .
+   * Initial Release.
+Checksums-Sha1:
+ 1678844fe954cc8a4c587809761bc839d68646b3 1581 pirogue-screen-st7789-240x240_1.0.0.dsc
+ e3733db02d42a98f43fbe625347dca94572414bf 65688 pirogue-screen-st7789-240x240_1.0.0.tar.xz
+ 9f15dfd961e48911c54bff0b6eea6b486a66f857 7200 pirogue-screen-st7789-240x240_1.0.0_amd64.buildinfo
+ f814080cbae75e69b53d98e5be49dbe0f2d7d728 66708 pirogue-screen-st7789-240x240_1.0.0_amd64.deb
+Checksums-Sha256:
+ 5282f43c815055e55095402e6d3b1d2d7fa2a11fbd9c111125c062f1742bd979 1581 pirogue-screen-st7789-240x240_1.0.0.dsc
+ 9949428bec357fea3456460dd6235d83479bd24ab9c79f86cc9073f5505c0959 65688 pirogue-screen-st7789-240x240_1.0.0.tar.xz
+ 221eff0c5b76684ea1cebc154013d9920cb0da90106af7c3bba9d411c72d9162 7200 pirogue-screen-st7789-240x240_1.0.0_amd64.buildinfo
+ d7b964a10e3971eb8c6c8a793aaf0a798076e5afbcb66615a5f1bc502c230d97 66708 pirogue-screen-st7789-240x240_1.0.0_amd64.deb
+Files:
+ fe212bebfa6aca3af7bbd2506cf258ec 1581 misc optional pirogue-screen-st7789-240x240_1.0.0.dsc
+ a17ec1de7078d63fab1262a4a86da928 65688 misc optional pirogue-screen-st7789-240x240_1.0.0.tar.xz
+ 79e5d2a104d90f6d54acce1e92df99ca 7200 misc optional pirogue-screen-st7789-240x240_1.0.0_amd64.buildinfo
+ 875ee5d2811868304f193713ec993fad 66708 misc optional pirogue-screen-st7789-240x240_1.0.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEbUnRRrnWGRm5YETEOls7FL0ECSYFAmIY8FYACgkQOls7FL0E
+CSa32Q//Wtmi525FwbCQ0XUQzF4/UGTZ9JL7GK0ZmmpGbJAkX2HL+CM/Wlzqyk9f
+Misx7qgP5v9D8YYv2SgRzYaSQGUQ0CsqJD4vAignX2gU00uhOJhGL92jm1/CUUUB
+ebVhh+MzAVcoguP+KklvTOoem5dRaL5WnUA26/ek7S8b7LTV+yJJqdmiOkPKUlIh
+45xEuOHjQXzsZThntOFfa9BYz8G8sCKz7m9hKyDXiM6/0xoQZDBsZhT8F130ookP
+6lWSWOwUJp5BxVXUxMnJYJP8chhZXJwsC0yv617QoEZeS82+zguBxkR2QJYiYe5v
+vEPgkIYMzaMwW1DYG9+hpM0ux3hNxUZMV5gGdskK2aTMNbVmFN95dJdLahdLfAic
+V35Wn9KXKgXT3EMx3VKYp9xIG925R/siDc2tk2ylyGt7mP8jm3+PA9+7M0+uRe8V
++EQ9YGN6jsYrI7fwHSYNPqFuekVW8mPm3eiTD/z2Ybcs+IXD6DLJMUr+N/pD7ejO
+ZTawtDrIrchRa/ovL+dvBgAVN2NmcRBbAbRbhvyAL3iq+HAmjvZfCBVAVXnSdQzP
+Xavh3IZthUHvrQ7BS246Jm29zMayAMJZYFl9ZorKuEOJf1nJB3oPYRDykoWrhMqP
+DaAANXvAjuohksDAgeC+n8NQ03YfnNiH8tGto236rXWKgVCT904=
+=FEjk
+-----END PGP SIGNATURE-----

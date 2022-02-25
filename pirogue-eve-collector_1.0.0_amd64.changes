@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 21 Feb 2022 15:41:06 +0100
+Source: pirogue-eve-collector
+Binary: pirogue-eve-collector
+Built-For-Profiles: noudeb
+Architecture: source amd64
+Version: 1.0.0
+Distribution: unstable
+Urgency: medium
+Maintainer: U+039b <hello@pts-project.org>
+Changed-By: U+039b <hello@pts-project.org>
+Description:
+ pirogue-eve-collector - Provision PiRogue Suricata alarm collector
+Changes:
+ pirogue-eve-collector (1.0.0) unstable; urgency=medium
+ .
+   * Initial Release.
+Checksums-Sha1:
+ 0edc7e131cf59a4c7f66ef523564d57cc5a98146 1533 pirogue-eve-collector_1.0.0.dsc
+ 3a6dcea4e49016723acc58d11b6b4223ef820f2e 21296 pirogue-eve-collector_1.0.0.tar.xz
+ 430a951bc85fdc9718dfabbd463ff47f609e405a 7136 pirogue-eve-collector_1.0.0_amd64.buildinfo
+ c65c8a25d727bac8745a6419c5ccbefe27342725 22020 pirogue-eve-collector_1.0.0_amd64.deb
+Checksums-Sha256:
+ 963bcf597c08ac7af114518d12ba5017a4e3b2a8264f967f852980d2bae42ce8 1533 pirogue-eve-collector_1.0.0.dsc
+ 6e286754d3154b63b344cf8f12cbf67966063fcea1ace514adb8ff98fa4fab6c 21296 pirogue-eve-collector_1.0.0.tar.xz
+ 4fb6279ae190d20f6659f7e6fef4861a335c15550e7967c5947648a48cefc88a 7136 pirogue-eve-collector_1.0.0_amd64.buildinfo
+ 674b664a54c9a8cfc9a5510d357e0c1f6c47cc5641283e615b8beef1fb29b6e0 22020 pirogue-eve-collector_1.0.0_amd64.deb
+Files:
+ 87d7c5f759441a5886d7c2d8e8f71865 1533 misc optional pirogue-eve-collector_1.0.0.dsc
+ 5f4763f3cf7fc2bd2e5d4f4725b6a631 21296 misc optional pirogue-eve-collector_1.0.0.tar.xz
+ 9a3f737c325893048edfbeadea8535d9 7136 misc optional pirogue-eve-collector_1.0.0_amd64.buildinfo
+ d36b4a0550860e3dae17846ce68ba6fc 22020 misc optional pirogue-eve-collector_1.0.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEbUnRRrnWGRm5YETEOls7FL0ECSYFAmIY8PEACgkQOls7FL0E
+CSbrbRAArkrlUaOr0wBjwkHs0UpLKY/QecVhtJRxXIRGN1ePPZJI+TsnuIiBn40d
+LjcvcqP6UJ58s1b46Vnr3IzULfFjPBX0Q+iHqtSKSPIWKi0etSXtlP8qpnQennjQ
+mQVTLNCSxvFQqDiFCSPHD50HyOTDBiEAXYlfQbZVqIF+6/bEQF6qh9m0p94kcE8m
+hxm4Y2kI7bXSqro8EPCMKUoFSghPrGcKLXR3Y3Wx4EPvnEJDeMgybCJmDe5z0o+o
+Yzysh+xyK6+zwYS/WW32vvqCNZWLff+Q9Lvw/888/7Z0ndBawt3XL0kMWvYFX+mq
+2ClL8Nc0qQcQy6T43iKcP+xoQewqpMEbYCKhTuTzjxYBAVbAOFUJeipnjm/lIfvp
+gRP6o2ZPPY6XbOnbkzBj/2Kwt0V+lk459UFir7M99rmn3Ob9TFjfEaIEsn4uLUxu
+aI9ZWMK6X8+1JTHQIeSkjSDr6k+SuMgKyx3AFmxe4GtEX3cQh+P2vda27mpDt9nP
+p4SyUua0gfbqfEEmeSHEpt22zU28uhqEVr0ei0MQ92l+qchEVqBuXl8O45Um1FW/
+DH10u82yX8jpgMkhddz9X7b/GTJuYaHO1lsjuVz7Wr7gKqOcZOFRl0wkG/u+8wJ+
+8tbzKgHgwoca8KuRA9ivIlP+SoUFSM9d1iATJefTEOPnJ3Px9QQ=
+=ie8J
+-----END PGP SIGNATURE-----

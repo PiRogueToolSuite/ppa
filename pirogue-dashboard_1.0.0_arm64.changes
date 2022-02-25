@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 21 Feb 2022 15:41:06 +0100
+Source: pirogue-dashboard
+Binary: pirogue-dashboard
+Built-For-Profiles: noudeb
+Architecture: source arm64
+Version: 1.0.0
+Distribution: unstable
+Urgency: medium
+Maintainer: U+039b <hello@pts-project.org>
+Changed-By: U+039b <hello@pts-project.org>
+Description:
+ pirogue-dashboard - Provision PiRogue dashboards
+Changes:
+ pirogue-dashboard (1.0.0) unstable; urgency=medium
+ .
+   * Initial Release.
+Checksums-Sha1:
+ ce25ad1087809b19a0bb33c20af5ea79903423c7 1509 pirogue-dashboard_1.0.0.dsc
+ 65b77e867796760046f9d55ca493e107e8cf5718 18224 pirogue-dashboard_1.0.0.tar.xz
+ aa52fcba3d73a3e8f319668c8770b7b699682242 7104 pirogue-dashboard_1.0.0_arm64.buildinfo
+ 61c88848be0c3e1d26ed317dbe1f2e1fd637d572 18756 pirogue-dashboard_1.0.0_arm64.deb
+Checksums-Sha256:
+ 56d4bcef917f669e76a372f8f45c6fc550a9069b7429dba5097f8c7322545a98 1509 pirogue-dashboard_1.0.0.dsc
+ 1ae7e989d2466b7648aed925b44efd5581fc40483995dbc1f4506c37d887b89d 18224 pirogue-dashboard_1.0.0.tar.xz
+ 66e3d99673ddd4aadf8b2222ae0a4e3bdb69cf68c00dfb012d6229c8f39112b7 7104 pirogue-dashboard_1.0.0_arm64.buildinfo
+ 60f88c2fd05ed3a390368be75e39c9e8f2a9573f7966c47367bd2cb845e956a1 18756 pirogue-dashboard_1.0.0_arm64.deb
+Files:
+ 333bb764c84b6e2788185a68ecf9b9d3 1509 misc optional pirogue-dashboard_1.0.0.dsc
+ 18406f46ca3a9cff6d4b4030f10dfa2a 18224 misc optional pirogue-dashboard_1.0.0.tar.xz
+ 2209a6c62efc719eac6e4f66e92a0b1e 7104 misc optional pirogue-dashboard_1.0.0_arm64.buildinfo
+ 320d55ed36b6870ec91a860a017da4ba 18756 misc optional pirogue-dashboard_1.0.0_arm64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEbUnRRrnWGRm5YETEOls7FL0ECSYFAmIY8OcACgkQOls7FL0E
+CSZnWxAAskSmutwXgqTG+NdFLC4n2DDK8YusFFAzB5/f6VqfeuNQSL1kZ/LRrm77
+9XQ2JdI0YPPHdAGXIeEk4UtdpMDwCKADCbJrMKhKUui8pZbhfu5sSvBzwtI4DuJO
+Fb0jfgXIy7SDjPRvMPDkfxrryQ2dL3Pgoi8AWBT545AftzWj6DpfmzpENsqR1eCS
+IYOUCYoZA2pdSsS981AImY/zAG3RRq7zS3MNGAIPfrk4o+DdPQZhmDl6/6NFcbbc
+ntlPSvRNIBdMG0ZIbgV0bhRN3PgOrWHFkXxdEV9irGXvnZA+KQrSM07w0cLgi8YM
+AixzYQY3ajpaXyEUiegvVsR4ISGW7IQj698/IY7BsAByrdqW4ZtFKNrKwYmQ7ZGM
+kFf7SeRt++pVV+VWCfJurNGCLLTFXyzVPb8KXv3JH+GF5NO8nW8/3WBz2wSrX9Ur
+D85ABWLCUNuRnZeC0/SuQVqRgg6EKADKP6D3aprSz8tzwL56qpV4jWnoe7J6PNZj
+3B/cyCL0fbjvOPsgnapM0ficUIwrg0p44Vuek8MRgGjEMnt4iFRd3Tp2rm1o57s0
+CxElufafnccQJpl8SL2hm5rkKDUnQZz6h6lZ1dVnI9aTjZ3QC037UlLxxQXSZ/Eq
+FwyIz3dvYcMeBY8TXOVVLloXk+xENuOiFZKGHhs1a+TTTtIsMEY=
+=Stjb
+-----END PGP SIGNATURE-----

@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 21 Feb 2022 15:41:06 +0100
+Source: pirogue-base
+Binary: pirogue-base
+Built-For-Profiles: noudeb
+Architecture: source armhf
+Version: 1.0.0
+Distribution: unstable
+Urgency: medium
+Maintainer: U+039b <hello@pts-project.org>
+Changed-By: U+039b <hello@pts-project.org>
+Description:
+ pirogue-base - Install all PiRogue packages
+Changes:
+ pirogue-base (1.0.0) unstable; urgency=medium
+ .
+   * Initial Release.
+Checksums-Sha1:
+ 1a99d9a717afb72a5c5964d29f6a86a0f13e59b6 1476 pirogue-base_1.0.0.dsc
+ 2a777361704b6ad3fa86a406a2e07fb5c0c555e1 1604 pirogue-base_1.0.0.tar.xz
+ 4362bac3d0cae2cf92b4c1ebc2819d8693d2e62c 7061 pirogue-base_1.0.0_armhf.buildinfo
+ d5f348625f3d4d5fd41353b2b048f27fe1a69d34 1836 pirogue-base_1.0.0_armhf.deb
+Checksums-Sha256:
+ 6af651592d0ba45b168af2091be6ca331b87ca642b26fe204f2afc1ccc645a7a 1476 pirogue-base_1.0.0.dsc
+ 8a1e85e29b1b3f4a10e29704fc1c2faacfb32dc56019957bae9cc9b2dac95bc2 1604 pirogue-base_1.0.0.tar.xz
+ 0c3156d65e096271c070bce6ea7d4e78ffd54f247ae0a953b0f394a28003844e 7061 pirogue-base_1.0.0_armhf.buildinfo
+ d678fc9d7688973265b4f4328cef45141db61652df73ca235301427c850e4192 1836 pirogue-base_1.0.0_armhf.deb
+Files:
+ 8c0b75229815fd92510c5ecbaeb25be2 1476 misc optional pirogue-base_1.0.0.dsc
+ 53bd6015086577a2ba57d7f9a2a5ff88 1604 misc optional pirogue-base_1.0.0.tar.xz
+ b41155aa7013a55b0dff85ea61cdef4d 7061 misc optional pirogue-base_1.0.0_armhf.buildinfo
+ 30663cebb0c423c71522aef559c431e8 1836 misc optional pirogue-base_1.0.0_armhf.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEbUnRRrnWGRm5YETEOls7FL0ECSYFAmIY8PMACgkQOls7FL0E
+CSYGOBAAqr6KYgw/D16KeC72ghvIiabiR9KlvMSY63CCDTIjaYG5Hh/5r4OQbQiw
+D4+4WAt+yarrUYvV4xQjc3HrHHgB4dRTY0lASA5nxgCjrNUDBtH/Vtr4R9gbk7V5
+MW5fQ8b6nfU5/bcecpWH3VicOS2zrVbm8Z1mOmvPAdLi1pMKK4Bm4wgpLeglHUS3
+mvVhloOFrUIrkn6KMY/+3iFiDUqEo8XJotIMUN5C/xo/TjqY5y/e4i1ymWZDBQZe
+T7XWlMHkr5ax9Wu2Y6mIRKGYC/qTgjes5NgUWqEPBHEhSq+JX0Pdsgwf/c0hYWN/
+NzpdL8HH3KGJpcRg5NW75i+HB11wAIkM4exy43sSDNsQAcmDsNmInIn1Dw7t8jB0
+CPtLDERVpsn16LEtP5F4lVGq27nKP/KajqW03RUHINQpPMoNxik3ZWW/vYQWmROX
+hwl97HJKKg+K6r0A4Hhe5kCaQQV78+0ExgRK76KEdQt09Amcu1Dbk65Mm2BwLpdb
+X8nmgB4lS4ECOLq4GXzaKoXZoE9m6pxtdWTHqaqNAxmuUIoYd8lOmDjEhVhooh+K
+zYgohKEwhqbrXD0vm4myOTPwI21GzHW90EcS2MIOpFv4oZvKu95ZCTiTN65NXdky
+IdFNlJEjcaevRk4JbefB95tYgJyigmkzM00Mxu7pLQ+ZepZrm4E=
+=L8Ct
+-----END PGP SIGNATURE-----

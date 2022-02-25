@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 21 Feb 2022 15:41:06 +0100
+Source: pirogue-flow-inspector
+Binary: pirogue-flow-inspector
+Built-For-Profiles: noudeb
+Architecture: source arm64
+Version: 1.0.0
+Distribution: unstable
+Urgency: medium
+Maintainer: U+039b <hello@pts-project.org>
+Changed-By: U+039b <hello@pts-project.org>
+Description:
+ pirogue-flow-inspector - Provision PiRogue DPI
+Changes:
+ pirogue-flow-inspector (1.0.0) unstable; urgency=medium
+ .
+   * Initial Release.
+Checksums-Sha1:
+ 8876417807f2d350fcddfa466e505907e9dba71b 1548 pirogue-flow-inspector_1.0.0.dsc
+ 46b293675410b8c04e385511e6e9c6840639b252 23289600 pirogue-flow-inspector_1.0.0.tar.xz
+ 654b2ce77704df0e4822804784951edf46e4aab8 7153 pirogue-flow-inspector_1.0.0_arm64.buildinfo
+ be7e2f1f0cea9fc7ee7aced0a809d4d783dc543d 23391468 pirogue-flow-inspector_1.0.0_arm64.deb
+Checksums-Sha256:
+ 620874edd1abc19c0a4c6cca2f057e96947c4534b7d16b16c11ec722b1ea0dbc 1548 pirogue-flow-inspector_1.0.0.dsc
+ 498f3237b4ae531b1b72d2e9994ea2475873750393656d670b42706faa740f9b 23289600 pirogue-flow-inspector_1.0.0.tar.xz
+ e7caba6bb4e0725a6961802174c526433d84ecb279e346670f6c8c4f3f9f7f8a 7153 pirogue-flow-inspector_1.0.0_arm64.buildinfo
+ 3a8d32beaff692863dc8e43ad5e1aa85b22d1766e3962bd052586f3685c480e9 23391468 pirogue-flow-inspector_1.0.0_arm64.deb
+Files:
+ 36e49359ef74935173e67478c75842eb 1548 misc optional pirogue-flow-inspector_1.0.0.dsc
+ 505d3bab6451cd1e8690608a5dbb9161 23289600 misc optional pirogue-flow-inspector_1.0.0.tar.xz
+ 26637d0c6e537b553b088d1ab337e212 7153 misc optional pirogue-flow-inspector_1.0.0_arm64.buildinfo
+ 88876cb2d2869d7d4bb8095bb20b1a08 23391468 misc optional pirogue-flow-inspector_1.0.0_arm64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEbUnRRrnWGRm5YETEOls7FL0ECSYFAmIY8LUACgkQOls7FL0E
+CSbf0Q/6Ax0OzhWebH5EBhywv06S+xzgJI8YrRFoBdpgJdv2uefVwXMQFaU1f4zr
+Oyj9WEA6UTY2nEnHQQ57OG0zkwKHIcbCgJiQ51K9YZtK4McufrrI1dPxwg9HphRw
+zgRrw74jbpD1pxB2nFGHdev4C/7IZ0oUc5UVNM+5et2yfvgBji02FtHb6fJMs612
+EeKlK3euufW8y2ikXzmb0JtRfFWfASWWbA9PQRsSIBDAADLH0v32v7PACtTPP3+7
+l9zOFb/YO3udINIBiEq1laMlwsoOarXz+YJDNyhTblIA4GPMxiz0R4nzRMCW3f27
+iKoIRGsF4I/xebMF2aw7HnEcQ1AzUZ9eZ9i1U41hwQoKBOeJlaJVNhfAoKziouPO
+dj1oOYANobQfW734sCPpbwsCdFFVhAbOwSXAoJdgHzLyO39uqkneaU2y8NOXV+hs
+SyAIeaVg4AVawy+9goAwQUYNPynL5pqck8hjDg3kv1urtOtRzbpIcukHSLXFVEtO
+Lb88SA+I7i8p52+pHb/rCIqg3luiBpoWkk9Hp6cWph/xCW01CtkmAIOKihtNFvrD
+4JdFpJiYrbOx2BykkivHMV7Yi0L8a0xp6a/Q5WrgfqndD88cStlmAYY5IntMhvWZ
+j3uMjXCyxzm3ZJXpZCZC5HnbOxKAzLbMjLaJVgzGWtLwXrcu5iE=
+=BXWj
+-----END PGP SIGNATURE-----
