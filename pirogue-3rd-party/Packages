@@ -1,0 +1,112 @@
+Package: chronograf
+Architecture: arm64
+Version: 1.9.1-1
+Priority: extra
+Section: default
+Maintainer: contact@influxdb.com
+Installed-Size: 94247
+Filename: ./chronograf_1.9.1-1_arm64.deb
+Size: 31796802
+MD5sum: 5f4615b2f3b2c3eead0689633917f0cc
+SHA1: cde7da39559e8c9396197ebe6e04e21cf11ba459
+SHA256: a7c324b70776e50750428fdaf9bd23bb1c6e1ea2f5475cb2c6a8d44d10927c42
+SHA512: 313defa402137d444d5198528da9900c259b4f48501d2c0c70021c8e79981fd491a1b2346ac160edb4ad25994c954ea1037f889bb62d55583f21484092c31433
+Homepage: https://github.com/influxdata/chronograf
+Description: Open source monitoring and visualization UI for the entire TICK stack.
+License: AGPLv3
+Vendor: InfluxData
+
+Package: chronograf
+Architecture: armhf
+Version: 1.9.1-1
+Priority: extra
+Section: default
+Maintainer: contact@influxdb.com
+Installed-Size: 85101
+Filename: ./chronograf_1.9.1-1_armhf.deb
+Size: 31626176
+MD5sum: 451737440972ffb30828dce500dc22fb
+SHA1: 759d9fa161fc8426d71c4e6accd288ffff80f633
+SHA256: ade96762502d161d44fb6de3e9e8fa1e68f7155df85aab4375a771c8382739c5
+SHA512: 56d5122bf2328f298b4c1a5b1d2b0f2547e39f474bbb9c9e52916590f3e6999d98afe414de44265e27f697b551c5c9770bc9685e69c28c40a2608085d196ccf5
+Homepage: https://github.com/influxdata/chronograf
+Description: Open source monitoring and visualization UI for the entire TICK stack.
+License: AGPLv3
+Vendor: InfluxData
+
+Package: grafana
+Architecture: arm64
+Version: 8.1.5
+Priority: extra
+Section: default
+Maintainer: contact@grafana.com
+Installed-Size: 177539
+Depends: adduser, libfontconfig1
+Filename: ./grafana_8.1.5_arm64.deb
+Size: 53581406
+MD5sum: a5593d36514d5d0472f31ec2ef70cde9
+SHA1: b2eab20814fdf595b12ed8e36267ad9760478ca3
+SHA256: 4ad886214c7d14a6e744c325515427ec584220e4e0994734f3d8fdb0e2b4d00e
+SHA512: d68a68323c9c957ee889f9232bd078420b6625935559e21593df1d840fee48fe5f0a3aaebb7a1623312a4d320ee25336d754b212da8b3a061e38bf023512cd98
+Homepage: https://grafana.com
+Description: Grafana
+License: "Apache 2.0"
+Vendor: Grafana
+
+Package: grafana
+Architecture: armhf
+Version: 8.1.5
+Priority: extra
+Section: default
+Maintainer: contact@grafana.com
+Installed-Size: 165767
+Depends: adduser, libfontconfig1
+Filename: ./grafana_8.1.5_armhf.deb
+Size: 53649286
+MD5sum: 8f0f5c1660fc550460dc313c8c73649b
+SHA1: 6a404b5c173ce6e3d2b15535a433adf97f39949f
+SHA256: 849304955d83179b0c130a311b825717ac38ab010bb08485c8c0d43b0ca7bcf9
+SHA512: 8329c7545c2f8deb814993844a5b4a804a6b34e8f5033387d296fbf2179c18a239d703d15ae53df12cac8fc2733011293cf8c7d0e9704a8f250f2b2883e4040c
+Homepage: https://grafana.com
+Description: Grafana
+License: "Apache 2.0"
+Vendor: Grafana
+
+Package: influxdb
+Architecture: arm64
+Version: 1.8.10-1
+Priority: extra
+Section: default
+Maintainer: support@influxdb.com
+Installed-Size: 144319
+Depends: curl
+Filename: ./influxdb_1.8.10-1_arm64.deb
+Size: 50689260
+MD5sum: de6c15f5664997eb38bb288332395d55
+SHA1: 194301c51cd5bed0b54c31c25569d66913fb3b78
+SHA256: 3ae97d58798031bda4e51771df69df35fcf5d2c788bfe858dc6311d6b0b3d259
+SHA512: 152cce8d6dc3c68ba600f11df8503b1fbf517b1387c23ca790595457fa316213a805e3de81c72c6fa07104e63f2d4be3f5f255707bd17482b6eab2fcf2de97de
+Homepage: https://influxdata.com
+Description: Distributed time-series database.
+License: Proprietary
+Vendor: InfluxData
+
+Package: influxdb
+Architecture: armhf
+Version: 1.8.10-1
+Priority: extra
+Section: default
+Maintainer: support@influxdb.com
+Installed-Size: 131840
+Depends: curl
+Filename: ./influxdb_1.8.10-1_armhf.deb
+Size: 50675356
+MD5sum: 7f523779628138f00bb78ca231ad4e0c
+SHA1: 1431c9b6c4597c2cbe49c4d5809a40d4a19e17c1
+SHA256: a152dbb704ef69bae59623eefbc3182118e533d6056b36b27bf500699b3120d9
+SHA512: 19f7224019915896104134491938ead1883384eedecaa6cbf1dfa6ebf92e54387e79036f6489ea2d5ae1e7532dc09258989421a3ffba04f7342bcdf9a0e14797
+Homepage: https://influxdata.com
+Description: Distributed time-series database.
+License: Proprietary
+Vendor: InfluxData
+
