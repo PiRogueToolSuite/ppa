@@ -1,3 +1,20 @@
+Package: pirogue-ap
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 22
+Depends: netfilter-persistent, iptables-persistent, hostapd, dnsmasq
+Filename: ./pirogue-ap_1.0.0_all.deb
+Size: 2844
+MD5sum: 03b61521be5cd2a1140573c6d796b4a4
+SHA1: 79d873b008d8848610989e52cf0d5a54362adb9d
+SHA256: 2f26643dc99b1aecc694d4c8338b634e674ccc25385660e0a077d47a0dd99e31
+SHA512: 61a8a2d2835a4e775eb247c2954a01e3ddab99a4319778190196b5b216ba4052dd0da35759b68ca08f982399834ac1d562cc6ca9109307cd50d937954b6455ce
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Install PiRogue wi-fi AP configuration
+
 Package: pirogue-base
 Architecture: all
 Version: 1.0.1
@@ -6,7 +23,7 @@ Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 9
 Depends: python3-pip, python3-systemd, pirogue-tools, pirogue-ap, pirogue-hat, pirogue-dashboard, pirogue-eve-collector, pirogue-flow-inspector, pirogue-maintenance, pirogue-screen-st7789-240x240
-Filename: ./dist/pirogue/pirogue-base_1.0.1_all.deb
+Filename: ./pirogue-base_1.0.1_all.deb
 Size: 1904
 MD5sum: 562ef6260e1ac66dcb5c6bf8a09c29f2
 SHA1: 0e873321067a019f235af605e4e03deb3944c9b4
@@ -23,7 +40,7 @@ Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 129
 Depends: grafana, influxdb
-Filename: ./dist/pirogue/pirogue-dashboard_1.0.1_all.deb
+Filename: ./pirogue-dashboard_1.0.1_all.deb
 Size: 18956
 MD5sum: 39a16e3bd35949495a1d6a3540907848
 SHA1: 0b7cdf18e188c3a9e19dec9bf9514e15bb663ec6
@@ -40,7 +57,7 @@ Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 90
 Depends: suricata, influxdb, chronograf, python3-influxdb
-Filename: ./dist/pirogue/pirogue-eve-collector_1.0.1_all.deb
+Filename: ./pirogue-eve-collector_1.0.1_all.deb
 Size: 22880
 MD5sum: c4fefe9f178f7fbde8656551900e827a
 SHA1: 2a041da6e9ce5f16288b032c2eee72f124e8754a
@@ -57,7 +74,7 @@ Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 72715
 Depends: influxdb, python3-influxdb, python3-pip
-Filename: ./dist/pirogue/pirogue-flow-inspector_1.0.0_all.deb
+Filename: ./pirogue-flow-inspector_1.0.0_all.deb
 Size: 23390648
 MD5sum: c89b73a8c9327f515cb42d45dce8f8cc
 SHA1: d2fae8339dc5e0da81e0a26a712a53e8291c022c
@@ -76,7 +93,7 @@ Installed-Size: 14
 Depends: i2c-tools
 Conflicts: fake-hwclock
 Replaces: fake-hwclock
-Filename: ./dist/pirogue/pirogue-hat_1.0.0_all.deb
+Filename: ./pirogue-hat_1.0.0_all.deb
 Size: 2244
 MD5sum: 4c15caab95fd71c343c41727f4e7fc7a
 SHA1: 5dae65376722c0ae39b3c0715ee8e6e12f8a57e3
@@ -93,7 +110,7 @@ Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 20
 Depends: suricata
-Filename: ./dist/pirogue/pirogue-maintenance_1.0.1_all.deb
+Filename: ./pirogue-maintenance_1.0.1_all.deb
 Size: 2912
 MD5sum: 24b71fd7a26874f98d3394794a2a72fc
 SHA1: 91036833eea38dcab373bf197004bdbecbe47c80
@@ -111,7 +128,7 @@ Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 412
 Provides: pirogue-screen-controller
 Depends: python3-influxdb, influxdb
-Filename: ./dist/pirogue/pirogue-screen-st7789-240x240_1.0.1_all.deb
+Filename: ./pirogue-screen-st7789-240x240_1.0.1_all.deb
 Size: 66832
 MD5sum: 4f7e8d98535d56294b1997c17bed49da
 SHA1: 8fdde909abae73c756ebefdb33308d873caa77b1
@@ -128,7 +145,7 @@ Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 10
 Depends: python3-pip, tcpdump, vim, git, gnupg2, htop, jq, adb
-Filename: ./dist/pirogue/pirogue-tools_1.0.0_all.deb
+Filename: ./pirogue-tools_1.0.0_all.deb
 Size: 1900
 MD5sum: c5fd524f6f935c04cc5ced418151a46d
 SHA1: 45aa7a7aa8ede94e0b2262b224f796767b2c6708
