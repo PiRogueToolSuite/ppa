@@ -4,14 +4,14 @@ Version: 1.0.0
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 22
+Installed-Size: 28
 Depends: netfilter-persistent, iptables-persistent, hostapd, dnsmasq
 Filename: ./pirogue-ap_1.0.0_all.deb
-Size: 2844
-MD5sum: 03b61521be5cd2a1140573c6d796b4a4
-SHA1: 79d873b008d8848610989e52cf0d5a54362adb9d
-SHA256: 2f26643dc99b1aecc694d4c8338b634e674ccc25385660e0a077d47a0dd99e31
-SHA512: 61a8a2d2835a4e775eb247c2954a01e3ddab99a4319778190196b5b216ba4052dd0da35759b68ca08f982399834ac1d562cc6ca9109307cd50d937954b6455ce
+Size: 3296
+MD5sum: cb28d6cccfbc5b9a75322c68545a05dc
+SHA1: d804bada3eff30676360272659f1ad16ec582429
+SHA256: 102a35b721f77d338ac757e94111610013bc2b6cbe955dc13cbcf6de53d207e6
+SHA512: 16a585ac4f4512c47cd7f6d7de53c17b948259dfa093974b4935d85d3106b731fb1f653f3a3300eef56108177e152272fc778b5cb6bbf73dc3392cb53f6981fc
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install PiRogue wi-fi AP configuration
 
@@ -42,10 +42,10 @@ Installed-Size: 129
 Depends: grafana, influxdb
 Filename: ./pirogue-dashboard_1.0.1_all.deb
 Size: 18956
-MD5sum: 39a16e3bd35949495a1d6a3540907848
-SHA1: 0b7cdf18e188c3a9e19dec9bf9514e15bb663ec6
-SHA256: b3b326a38566fc6fe59bf59e30472d3dd02d9b7d74dae278901e86c1985ca14a
-SHA512: 482715d6c6ff05db51ed830f66da644d6ebaf0662e3b4e0a218440df508a12af29c0898405180f65ae76cbe4cd65c97c85c5e14bd0089a232622c6a4328edc4a
+MD5sum: bd7f0dc78df2a7f8e8d6bed771ec6423
+SHA1: 2fc0c493b56840837bd309eb3d29c7ea8d873100
+SHA256: 786db2ecc12e4c82cf9520638d75f39ac324cdece00eb831f262b7b37fc341ca
+SHA512: feef85f32e59a9e8c7df2b43e448fa2c4a68f2627de5e8867a73156413f7c84b7e9545a2bfecdf276e189d1619d3f7bbf8b6a30613d8027965b2536cc5d0d686
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue dashboards
 
@@ -55,14 +55,14 @@ Version: 1.0.1
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 90
+Installed-Size: 86
 Depends: suricata, influxdb, chronograf, python3-influxdb
 Filename: ./pirogue-eve-collector_1.0.1_all.deb
-Size: 22880
-MD5sum: c4fefe9f178f7fbde8656551900e827a
-SHA1: 2a041da6e9ce5f16288b032c2eee72f124e8754a
-SHA256: 24cae661b67420cf45ff3b23c61abed4e9f1d12f063508612573c0d7bec6a7ad
-SHA512: b4773d253e7ca05cfe6d666cea5560c2ad4b3dbca1e85be6425a1789aa3c83c26e472ca9691cebaf3761ffff147dd01983866f4e4787f4b7bdb4e711d58330d1
+Size: 22260
+MD5sum: 76213902256f1fdc6cb3acbd51ed934c
+SHA1: 67673e4a8f3955aaad3d22704246bf661e5e55fd
+SHA256: 0877380c98b833f58a5de49b0b7b417bf060e04c0fa9abadfa799aff9a6b3f12
+SHA512: 65cacc8d6b46e86b65d9f8c52a492bcd0ae9aa079ea8f303ed2898e83e538825574d082750de8d54c1230974a741f1fb2c931c7b9d6d626698fa88ab99f0399d
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue Suricata alarm collector
 
@@ -73,13 +73,13 @@ Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 72715
-Depends: influxdb, python3-influxdb, python3-pip
+Depends: influxdb, python3-influxdb, python3-pip, python3-nfstream
 Filename: ./pirogue-flow-inspector_1.0.0_all.deb
-Size: 23390648
-MD5sum: c89b73a8c9327f515cb42d45dce8f8cc
-SHA1: d2fae8339dc5e0da81e0a26a712a53e8291c022c
-SHA256: a4bed22c44a579e3146310dd0d151b38fcc5bb425f6ae1c3aebe8072c4777734
-SHA512: b10d0328e436f9c14df07ba2fc9c8b83a78500e776a1872ea170d7c0f57248c3e1c108ba76836d1cc9f9a47bc86daaa27a0e68e1a5fa86c0895191fdad8aa9f5
+Size: 23390716
+MD5sum: c66546e3ef310ff0ec25387755c51a1f
+SHA1: 7a99bca8905731e413f2732bf73acd04570c5d72
+SHA256: 23a1103dd6702b545fe21bad48492fe4047d925e8511de0c8bebbec8a52c0857
+SHA512: 206d75e838c08e18acc954955557c2f9e6e96d58282424d0c696ae318d8c73b52a427d95605e3c27b6e2b1085ce874c59acb910a39cac3f01cae7b3a3b9945da
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue DPI
 

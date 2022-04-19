@@ -110,3 +110,53 @@ Description: Distributed time-series database.
 License: Proprietary
 Vendor: InfluxData
 
+Package: python3-nfstream
+Architecture: arm64
+Version: 6.3.5~ds1
+Priority: optional
+Section: net
+Source: nfstream
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 1926
+Depends: libc6 (>= 2.17), python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3-dpkt (>= 1.9.2), python3-numpy, python3-pandas (>= 1.1.5), python3-psutil (>= 5.8.0), python3:any
+Filename: ./python3-nfstream_6.3.5~ds1_arm64.deb
+Size: 381096
+MD5sum: bde321b794903fc35e2af41e31a4c04a
+SHA1: 419759148d2d122c6aa14bb2715e9b636cda6472
+SHA256: 299b6520effdf062d5078ddbefd7ce91e154e4bad7b0ebbf9954f25d007800ff
+SHA512: 4a428e9492fbbc8a3d6e0cc7bb0675bedd4381e9e3d3713794e874014368b85685ce5c082765e10f59dd052b39634ee404a5a0a3432760c2304ecc79b4604bfe
+Homepage: https://www.nfstream.org/
+Description: flexible network data analysis framework
+ NFStream is a multiplatform Python framework providing fast, flexible,
+ and expressive data structures designed to make working with online or
+ offline network data both easy and intuitive. It aims to be the
+ fundamental high-level building block for doing practical, real world
+ network data analysis in Python. Additionally, it has the broader goal
+ of becoming a common network data analytics framework for researchers
+ providing data reproducibility across experiments.
+
+Package: python3-nfstream
+Architecture: armhf
+Version: 6.3.5~ds1
+Priority: optional
+Section: net
+Source: nfstream
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 1340
+Depends: libc6 (>= 2.28), python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3-dpkt (>= 1.9.2), python3-numpy, python3-pandas (>= 1.1.5), python3-psutil (>= 5.8.0), python3:any
+Filename: ./python3-nfstream_6.3.5~ds1_armhf.deb
+Size: 341580
+MD5sum: 07edcc0e3ffdc7f1ed50caa03cdf6c1c
+SHA1: c2344b51b468880148189df9859dde1fe256b9dd
+SHA256: a96abf18855ed7081f98cc7f0505f6ccd0aaae46234929b008182a6b8c9c8e45
+SHA512: 2f26d49d1290a85f4976741e35f90fb1e96307bc0adcec5d6d16a8eff4cbdf72307f127b18e50e49abd51e6df030ddfae82231f576ae88c97dd7d6f20e5bd5b9
+Homepage: https://www.nfstream.org/
+Description: flexible network data analysis framework
+ NFStream is a multiplatform Python framework providing fast, flexible,
+ and expressive data structures designed to make working with online or
+ offline network data both easy and intuitive. It aims to be the
+ fundamental high-level building block for doing practical, real world
+ network data analysis in Python. Additionally, it has the broader goal
+ of becoming a common network data analytics framework for researchers
+ providing data reproducibility across experiments.
+
