@@ -4,14 +4,14 @@ Version: 1.0.0
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 28
+Installed-Size: 30
 Depends: netfilter-persistent, iptables-persistent, hostapd, dnsmasq
 Filename: ./pirogue-ap_1.0.0_all.deb
-Size: 3296
-MD5sum: cb28d6cccfbc5b9a75322c68545a05dc
-SHA1: d804bada3eff30676360272659f1ad16ec582429
-SHA256: 102a35b721f77d338ac757e94111610013bc2b6cbe955dc13cbcf6de53d207e6
-SHA512: 16a585ac4f4512c47cd7f6d7de53c17b948259dfa093974b4935d85d3106b731fb1f653f3a3300eef56108177e152272fc778b5cb6bbf73dc3392cb53f6981fc
+Size: 3608
+MD5sum: 421e2a9837b28dfaeb42c5093e5bd38b
+SHA1: 8ca8e7c1c442d2850e1099a95088b464be8fdaff
+SHA256: 012a0eae46c1cd6dac2962aaa8a67191b719648a8040a2a75141a3f73a99fbd6
+SHA512: 233757de2ed2f641a6ca0f7fcd1d522a857e10acc1a9cd410cf5a1ad89361309e08b88ae652e0d6520fe6174fe9af92a7981d3d4ebed644fd584c7e466dedefe
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install PiRogue wi-fi AP configuration
 
@@ -42,10 +42,10 @@ Installed-Size: 129
 Depends: grafana, influxdb
 Filename: ./pirogue-dashboard_1.0.1_all.deb
 Size: 18956
-MD5sum: bd7f0dc78df2a7f8e8d6bed771ec6423
-SHA1: 2fc0c493b56840837bd309eb3d29c7ea8d873100
-SHA256: 786db2ecc12e4c82cf9520638d75f39ac324cdece00eb831f262b7b37fc341ca
-SHA512: feef85f32e59a9e8c7df2b43e448fa2c4a68f2627de5e8867a73156413f7c84b7e9545a2bfecdf276e189d1619d3f7bbf8b6a30613d8027965b2536cc5d0d686
+MD5sum: b1f472f189e7c906189127059e63350b
+SHA1: 41680a13fed7f71e35ff0c321baad790abdb17b6
+SHA256: c62ee6fe318df7ac1cb5ef5ec846c54a266262158952282eae87b8e78bd55ea7
+SHA512: 4a8f4cc1daaf4734c032d2ab052b9baab4c4dced1045555134f0e7c0c5153428f96317a0aff5a99eb71015d4b24a8692787d4c6e3e1764efd54357b0f35618d7
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue dashboards
 
@@ -55,14 +55,14 @@ Version: 1.0.1
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 86
+Installed-Size: 87
 Depends: suricata, influxdb, chronograf, python3-influxdb
 Filename: ./pirogue-eve-collector_1.0.1_all.deb
-Size: 22260
-MD5sum: 76213902256f1fdc6cb3acbd51ed934c
-SHA1: 67673e4a8f3955aaad3d22704246bf661e5e55fd
-SHA256: 0877380c98b833f58a5de49b0b7b417bf060e04c0fa9abadfa799aff9a6b3f12
-SHA512: 65cacc8d6b46e86b65d9f8c52a492bcd0ae9aa079ea8f303ed2898e83e538825574d082750de8d54c1230974a741f1fb2c931c7b9d6d626698fa88ab99f0399d
+Size: 22484
+MD5sum: 75a831f4154a1c76734589d5e6b2118c
+SHA1: a9b355d4f6290bcce863d47b05d50ec2071e3811
+SHA256: 61eeef8e4978b5882ed538b3c048907a9034f59b0d8f4042aeeeb7e8fa615201
+SHA512: 8e87b195e3d68a9705538a3327cc7a5785d94a86179e7ae85a0be0c9c152e430d447117df6a53b721af1b80cb2484bcb12b07d23f06b7ab0cfed0576fb9c5c06
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue Suricata alarm collector
 
@@ -94,11 +94,11 @@ Depends: i2c-tools
 Conflicts: fake-hwclock
 Replaces: fake-hwclock
 Filename: ./pirogue-hat_1.0.0_all.deb
-Size: 2244
-MD5sum: 4c15caab95fd71c343c41727f4e7fc7a
-SHA1: 5dae65376722c0ae39b3c0715ee8e6e12f8a57e3
-SHA256: abf6d64e9ac9c9577556ea3c2051881931f77785eb8b2a8a4650cce21e34ce03
-SHA512: 6485dc2cf2aa4abb2128bb4d088c9dbd2d3b19a8c64b6c0dc8b1dc667aab806ac2d5bf2ab793316aa4aa340799ff30644eb689138c7901c75a372c600cea94f9
+Size: 2248
+MD5sum: ec7f2e4d2575ba71b71d28e06adf690c
+SHA1: bc1508a2752c495e7e103bf9632203c0d5745753
+SHA256: d21667c0eb5028b637269239026d519333ddbc7b64d2e67e6b6857b72f7ac4df
+SHA512: 5794b29c7f41aeb8a37a7b3bb08f19965e2b7608c70d1bdcf2c01c3ffadae8440d4697576888ab0fd06bef0ac7ac5090a10033c00ab323210867e266698cc1d9
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install PiRogue's hat requirements
 
