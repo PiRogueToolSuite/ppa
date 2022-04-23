@@ -110,6 +110,82 @@ Description: Distributed time-series database.
 License: Proprietary
 Vendor: InfluxData
 
+Package: python3-adb-shell
+Architecture: all
+Version: 0.4.2-1~pirogue1
+Priority: optional
+Section: python
+Source: adb-shell
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 234
+Depends: python3-cryptography, python3-pyasn1, python3-rsa, python3:any, python3-aiofiles, python3-usb1
+Filename: ./python/python3-adb-shell_0.4.2-1~pirogue1_all.deb
+Size: 27404
+MD5sum: e8bfba185ee73724fcce031c773662d5
+SHA1: edcdf8022321630db4d3b8830804e442264f85ec
+SHA256: cd448624a479153bf9b7c6385eab98d22137492a0150e8e04e8e50cbde780bc4
+SHA512: 24f05f806ce172738876a606d70807e6c0627aae5c48410c8b43e6172dc67f56a73b10295639d99378de44a674287e992aa5ffb1bbabf488c0e9d028fa4677a4
+Homepage: https://github.com/JeffLIrion/adb_shell
+Description: Python implementation of ADB with shell and FileSync functionality
+ FIXME: Long description.
+
+Package: python3-iosbackup
+Architecture: all
+Version: 0.9.923-1~pirogue1
+Priority: optional
+Section: python
+Source: iosbackup
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 86
+Depends: python3-nskeyedunarchiver, python3-pycryptodome, python3:any
+Filename: ./python/python3-iosbackup_0.9.923-1~pirogue1_all.deb
+Size: 17776
+MD5sum: 5621c124a2bb4494a4f3448c117712fc
+SHA1: 82bac8f8519f2d7f791e69a8b03b4adc9a4115c0
+SHA256: 117436c3ca2d2fb8e98776183feb7c79e51edb61f659ba1dfc297a5660f55bf4
+SHA512: 41b222661639f08c7d28ff562126391c2c9f2a7b1950dc38643b8e1909a51899f775e5888f65ee65b569ba44595d0ee3993d0e403abd0cfe5cd994ae2f00f267
+Homepage: https://github.com/avibrazil/iOSbackup
+Description: reads and extracts files from password-encrypted iOS backups
+ FIXME: Long description.
+
+Package: python3-mvt
+Architecture: all
+Version: 1.5.4-1~pirogue1
+Priority: optional
+Section: python
+Source: mvt
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 438
+Depends: python3-adb-shell, python3-appdirs (>= 1.4.4), python3-click, python3-cryptography, python3-iosbackup, python3-packaging, python3-requests, python3-rich, python3-simplejson, python3-tld, python3-tqdm, python3-usb1, python3:any
+Filename: ./python/python3-mvt_1.5.4-1~pirogue1_all.deb
+Size: 58296
+MD5sum: f9df5cf8a31c3228a9e819f00c8d57d5
+SHA1: 50777a5438e5bd9cdafea0daf7eb7b418657e85f
+SHA256: 7ddbb2df53e852003097b39d263db2e8496a8ce493bdf75815e7099ed94680c1
+SHA512: 851d1237b0ef717be533e4269a4f9277d443dd7df3bb4440130189c207f0d86812b000177f349abb40aaf2fa83b77ad2eb9a4305efca47f62cc7195fc0c8803d
+Homepage: https://github.com/mvt-project/mvt
+Description: Mobile Verification Toolkit
+ FIXME: Long description.
+
+Package: python3-nskeyedunarchiver
+Architecture: all
+Version: 1.5-1~pirogue1
+Priority: optional
+Section: python
+Source: nskeyedunarchiver
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 25
+Depends: python3:any
+Filename: ./python/python3-nskeyedunarchiver_1.5-1~pirogue1_all.deb
+Size: 4392
+MD5sum: fcaf663db5cae33ba115daffc9104819
+SHA1: f334c7714bedd3f66568079a53d66b4ee6c129ea
+SHA256: 219703d79e4eb8aff4b94bf1e6ceeb659cff80913c7875a7db9d13d7dd28e242
+SHA512: 4c8d7853f527d23d4b82ea9ca3e1006b3fc58a2e8c28dd227ad14409360b46a1502fc0f4f092b5e548ea87ff328a969288ed43f5df89e261ccb53d6d0a7f34e2
+Homepage: https://github.com/avibrazil/NSKeyedUnArchiver
+Description: decodes Apple's NSKeyedArchiver
+ FIXME: Long description.
+
 Package: python3-nfstream
 Architecture: arm64
 Version: 6.3.5~ds1
