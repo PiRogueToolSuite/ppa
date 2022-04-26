@@ -34,6 +34,42 @@ Description: Open source monitoring and visualization UI for the entire TICK sta
 License: AGPLv3
 Vendor: InfluxData
 
+Package: frida
+Architecture: arm64
+Version: 15.1.17~pirogue1
+Priority: optional
+Section: python
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 145667
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, python3-colorama, python3-prompt-toolkit, python3-pygments, libc6 (>> 2.31), libc6 (<< 2.32)
+Filename: ./frida_15.1.17~pirogue1_arm64.deb
+Size: 37732244
+MD5sum: 32093385471f8b642c0b76f5af4c06ea
+SHA1: bd793e9070060a2d65da6c2983811649db018eb5
+SHA256: b4a2f6509892e564b138aa83be3e46af51f3822ff248dd789a9886616ed0a66a
+SHA512: 1b200dd1683cffb259dcc43186a001e797b52e06dcabc1ef2f454d3c17ed2ee0537bf2ae4ac0018145e12fac67f0cebc50b57c95997ae53b6efe90e8ef4f942a
+Homepage: https://frida.re/
+Description: dynamic instrumentation toolkit for reverse-engineering
+ FIXME: Long description.
+
+Package: frida
+Architecture: armhf
+Version: 15.1.17~pirogue1
+Priority: optional
+Section: python
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 101481
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, python3-colorama, python3-prompt-toolkit, python3-pygments, libc6 (>> 2.31), libc6 (<< 2.32)
+Filename: ./frida_15.1.17~pirogue1_armhf.deb
+Size: 35877768
+MD5sum: c07e31faed6c0f084e77cc60c973e2db
+SHA1: b48fda51182706bcc0711428353b39d223043a81
+SHA256: 9ae0d78ef7fb444cae8b4a846ac914a49b9c8a54510fb67e3d63829e7ee34bef
+SHA512: 0090bfc769bc3875988f36a4c4abe9e23774a11a8fff81a098ad09dd77e7138de1f70b5e1ff80745e30724e9f342ba40e4a702403661f1ef34cd627816b72076
+Homepage: https://frida.re/
+Description: dynamic instrumentation toolkit for reverse-engineering
+ FIXME: Long description.
+
 Package: grafana
 Architecture: arm64
 Version: 8.1.5
@@ -129,6 +165,44 @@ Homepage: https://github.com/JeffLIrion/adb_shell
 Description: Python implementation of ADB with shell and FileSync functionality
  FIXME: Long description.
 
+Package: python3-communityid
+Architecture: all
+Version: 1.4-1~pirogue1
+Priority: optional
+Section: python
+Source: communityid
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 65
+Depends: python3:any
+Filename: ./python/python3-communityid_1.4-1~pirogue1_all.deb
+Size: 12860
+MD5sum: b6f7c6c02df8dda55a1c6822d68f61fd
+SHA1: 2e456c217aa66fc89f8d059157f87a4fcc4fd014
+SHA256: 20ab9b1179bc13ce0680bcb6543fa69a2ca164bd84e99e9976894f18bfeba00d
+SHA512: 1ea30cea0461d614c8160db694c796883f661f972eb2bedd9a80a0350025eee5d588d583225af713d16b87ee0fdc50a9d1c58ca0e7b571fd6235cddb95d22c82
+Homepage: https://github.com/corelight/pycommunityid
+Description: Community ID flow hashing
+ FIXME: Long description.
+
+Package: python3-geoip2
+Architecture: all
+Version: 4.5.0-1~pirogue1
+Priority: optional
+Section: python
+Source: geoip2
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 117
+Depends: python3-aiohttp, python3-maxminddb (>= 2.2.0), python3-requests, python3-urllib3, python3:any
+Filename: ./python/python3-geoip2_4.5.0-1~pirogue1_all.deb
+Size: 22048
+MD5sum: ebd192fb5c04f22721e683a276f7eff3
+SHA1: eaa123deb2ec25ee18abc843fd54cefaa67eba7d
+SHA256: ec2e7d3809c24af86c4c64f0e55e4b82b78432ed363d1db31e8b9e93c4164cb4
+SHA512: 621437a747e3eee3a34d880a779d866e0c235aea694dc54b8d777e8978c3b7e7fe2f7f2a1e0194bd969fe31243f54c6ec6c9b7a414190800767eb55b20d99c86
+Homepage: http://www.maxmind.com/
+Description: MaxMind GeoIP2 API
+ FIXME: Long description.
+
 Package: python3-iosbackup
 Architecture: all
 Version: 0.9.923-1~pirogue1
@@ -146,6 +220,46 @@ SHA256: 117436c3ca2d2fb8e98776183feb7c79e51edb61f659ba1dfc297a5660f55bf4
 SHA512: 41b222661639f08c7d28ff562126391c2c9f2a7b1950dc38643b8e1909a51899f775e5888f65ee65b569ba44595d0ee3993d0e403abd0cfe5cd994ae2f00f267
 Homepage: https://github.com/avibrazil/iOSbackup
 Description: reads and extracts files from password-encrypted iOS backups
+ FIXME: Long description.
+
+Package: python3-maxminddb
+Architecture: arm64
+Version: 2.2.0-1~pirogue1
+Priority: optional
+Section: python
+Source: maxminddb
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 76
+Provides: python3.9-maxminddb
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.17), libmaxminddb0 (>= 1.0.2)
+Filename: ./python/python3-maxminddb_2.2.0-1~pirogue1_arm64.deb
+Size: 19580
+MD5sum: 572e472ba45ae7f28510277816448500
+SHA1: 251e5e7ebcfb0a0fee100a34afde493416ac2b3d
+SHA256: d7fb8d0c742aec2ae791a4277e4b3b0f5efe7c40b5d0cb1ba683e2952cc31ef2
+SHA512: 104ac5c9a6ba6988ef5eddd32c94617f4e6eb7050d2f8ec4d8e9d0fca100132544a96325b8275398d1dd58915108a6473ff3c0df4846e23cad636cb7f0ee5b9b
+Homepage: http://www.maxmind.com/
+Description: Reader for the MaxMind DB format
+ FIXME: Long description.
+
+Package: python3-maxminddb
+Architecture: armhf
+Version: 2.2.0-1~pirogue1
+Priority: optional
+Section: python
+Source: maxminddb
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 71
+Provides: python3.9-maxminddb
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.4), libmaxminddb0 (>= 1.0.2)
+Filename: ./python/python3-maxminddb_2.2.0-1~pirogue1_armhf.deb
+Size: 18840
+MD5sum: 899d48cf0b2fb6c90b6e4dd19db368f2
+SHA1: 854902ce43b79f687d4c5d17be96c19c536c6bef
+SHA256: 35c50650ffc5fcc86de13617134384027d65a68441d862ff4b768fc77a65daf1
+SHA512: 3bc997b3f357a654663a0d1f3c86db1c7fe64960438d2def054eec63fa640cb147b5b1f41370405c57144f3814b20f6a0b001ccee28c3d7f8ba5a0d6392d9cf0
+Homepage: http://www.maxmind.com/
+Description: Reader for the MaxMind DB format
  FIXME: Long description.
 
 Package: python3-mvt
@@ -186,21 +300,81 @@ Homepage: https://github.com/avibrazil/NSKeyedUnArchiver
 Description: decodes Apple's NSKeyedArchiver
  FIXME: Long description.
 
+Package: python3-numpy
+Architecture: arm64
+Version: 1:1.22.1-1+pirogue1
+Priority: optional
+Section: python
+Source: numpy
+Maintainer: Sandro Tosi <morph@debian.org>
+Installed-Size: 37341
+Provides: dh-sequence-numpy3, python3-f2py, python3-numpy-abi9, python3-numpy-api15, python3-numpy-dev, python3.9-numpy
+Depends: python3-pkg-resources, python3 (<< 3.10), python3 (>= 3.9~), python3.9:any, python3:any, libblas3 | libblas.so.3, libc6 (>= 2.29), liblapack3 | liblapack.so.3
+Suggests: gcc, gfortran, python-numpy-doc, python3-dev, python3-pytest
+Filename: ./python/python3-numpy_1.22.1-1+pirogue1_arm64.deb
+Size: 4981620
+MD5sum: 5e89bf03265c7e65821a57385b4b0c37
+SHA1: 6b9c928344754c09c320913dc2d6bfd96039a204
+SHA256: 9468886be085b66a910faeafb54e7724e5644d109c15b8ad2cf560aaa2e08ede
+SHA512: f32293f0e6b3b58b40d3d74cd350ffa9042dbf91443ecacdba33c14c0420880b617bd430ea25534bf1dbed2e059572d12f24ac6e1bb186fddddbb31914899f64
+Homepage: http://www.numpy.org/
+Description: Fast array facility to the Python 3 language
+ Numpy contains a powerful N-dimensional array object, sophisticated
+ (broadcasting) functions, tools for integrating C/C++ and Fortran
+ code, and useful linear algebra, Fourier transform, and random number
+ capabilities.
+ .
+ Numpy replaces the python-numeric and python-numarray modules which are
+ now deprecated and shouldn't be used except to support older
+ software.
+ .
+ This package contains Numpy for Python 3.
+
+Package: python3-numpy
+Architecture: armhf
+Version: 1:1.22.1-1+pirogue1
+Priority: optional
+Section: python
+Source: numpy
+Maintainer: Sandro Tosi <morph@debian.org>
+Installed-Size: 29128
+Provides: dh-sequence-numpy3, python3-f2py, python3-numpy-abi9, python3-numpy-api15, python3-numpy-dev, python3.9-numpy
+Depends: python3-pkg-resources, python3 (<< 3.10), python3 (>= 3.9~), python3.9:any, python3:any, libblas3 | libblas.so.3, libc6 (>= 2.29), liblapack3 | liblapack.so.3
+Suggests: gcc, gfortran, python-numpy-doc, python3-dev, python3-pytest
+Filename: ./python/python3-numpy_1.22.1-1+pirogue1_armhf.deb
+Size: 4299756
+MD5sum: 3e03283df0f6ea0acdb71600b7843cb2
+SHA1: 6637e30a388d13c05228a01262f043c257911b89
+SHA256: 64b454136206cdc3d60fd6d0bc0baea98e1c344727a1f60dc88bca4c32baad20
+SHA512: 2e61d6d1324b4f7a8f48403702bd9829e516b3f35c7ca45689f9e1d2a8ef34b1bfa7065a9a8e7d78e9dab2b37367f95f947b99e56f2ced36a83ba048c6fb1998
+Homepage: http://www.numpy.org/
+Description: Fast array facility to the Python 3 language
+ Numpy contains a powerful N-dimensional array object, sophisticated
+ (broadcasting) functions, tools for integrating C/C++ and Fortran
+ code, and useful linear algebra, Fourier transform, and random number
+ capabilities.
+ .
+ Numpy replaces the python-numeric and python-numarray modules which are
+ now deprecated and shouldn't be used except to support older
+ software.
+ .
+ This package contains Numpy for Python 3.
+
 Package: python3-nfstream
 Architecture: arm64
-Version: 6.3.5~ds1
+Version: 6.3.5~ds2
 Priority: optional
 Section: net
 Source: nfstream
 Maintainer: Cyril Brulebois <cyril@debamax.com>
 Installed-Size: 1926
-Depends: libc6 (>= 2.17), python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3-dpkt (>= 1.9.2), python3-numpy, python3-pandas (>= 1.1.5), python3-psutil (>= 5.8.0), python3:any
-Filename: ./python3-nfstream_6.3.5~ds1_arm64.deb
-Size: 381096
-MD5sum: bde321b794903fc35e2af41e31a4c04a
-SHA1: 419759148d2d122c6aa14bb2715e9b636cda6472
-SHA256: 299b6520effdf062d5078ddbefd7ce91e154e4bad7b0ebbf9954f25d007800ff
-SHA512: 4a428e9492fbbc8a3d6e0cc7bb0675bedd4381e9e3d3713794e874014368b85685ce5c082765e10f59dd052b39634ee404a5a0a3432760c2304ecc79b4604bfe
+Depends: libc6 (>= 2.17), python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3-dpkt (>= 1.9.2), python3-numpy, python3-pandas (>= 1.1.5), python3-psutil (>= 5.8.0), python3:any, python3-cffi (>= 1.14.5)
+Filename: ./python3-nfstream_6.3.5~ds2_arm64.deb
+Size: 380972
+MD5sum: e3288c5cca531b6987cad9cca31d42a6
+SHA1: ca730eee962dd76f1f001cb2f5f352bd47876eeb
+SHA256: 4d8bd8280cb57d8e919f08226b452069df9f1bbe804be16328ff5c5f5fa1006c
+SHA512: 4c2c0602ef2cecf9453b569e737e559a96f6b5614160f621f536ae2a7d1be7140f94f26cdfcd49ea6c7a2bbdd0c6d51a5a8c8dfceddcd8624a71a5b9550d77ce
 Homepage: https://www.nfstream.org/
 Description: flexible network data analysis framework
  NFStream is a multiplatform Python framework providing fast, flexible,
@@ -213,19 +387,19 @@ Description: flexible network data analysis framework
 
 Package: python3-nfstream
 Architecture: armhf
-Version: 6.3.5~ds1
+Version: 6.3.5~ds2
 Priority: optional
 Section: net
 Source: nfstream
 Maintainer: Cyril Brulebois <cyril@debamax.com>
 Installed-Size: 1340
-Depends: libc6 (>= 2.28), python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3-dpkt (>= 1.9.2), python3-numpy, python3-pandas (>= 1.1.5), python3-psutil (>= 5.8.0), python3:any
-Filename: ./python3-nfstream_6.3.5~ds1_armhf.deb
-Size: 341580
-MD5sum: 07edcc0e3ffdc7f1ed50caa03cdf6c1c
-SHA1: c2344b51b468880148189df9859dde1fe256b9dd
-SHA256: a96abf18855ed7081f98cc7f0505f6ccd0aaae46234929b008182a6b8c9c8e45
-SHA512: 2f26d49d1290a85f4976741e35f90fb1e96307bc0adcec5d6d16a8eff4cbdf72307f127b18e50e49abd51e6df030ddfae82231f576ae88c97dd7d6f20e5bd5b9
+Depends: libc6 (>= 2.28), python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3-dpkt (>= 1.9.2), python3-numpy, python3-pandas (>= 1.1.5), python3-psutil (>= 5.8.0), python3:any, python3-cffi (>= 1.14.5)
+Filename: ./python3-nfstream_6.3.5~ds2_armhf.deb
+Size: 341688
+MD5sum: 8d8f0b125879eea461389157c6f3d919
+SHA1: a88a227686d1b2da032cc5900be28e167898e9d0
+SHA256: 50e2949659a698992fa2945337fe51c95fc6757a89fcc1bffd17cea9fd5e5bbc
+SHA512: 309365497b0ba373be7e2b757d87bbda58e2aa7f386db1717040376a3aebb00136a672d5859a5443dce016c5b3a385e4bd34c1ce4b9067f1b23dded16ded58fc
 Homepage: https://www.nfstream.org/
 Description: flexible network data analysis framework
  NFStream is a multiplatform Python framework providing fast, flexible,
