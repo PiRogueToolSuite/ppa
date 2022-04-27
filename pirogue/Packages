@@ -51,35 +51,35 @@ Description: Provision PiRogue dashboards
 
 Package: pirogue-eve-collector
 Architecture: all
-Version: 1.0.1
+Version: 1.0.2
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 87
-Depends: suricata, influxdb, chronograf, python3-influxdb
-Filename: ./pirogue-eve-collector_1.0.1_all.deb
-Size: 22484
-MD5sum: 75a831f4154a1c76734589d5e6b2118c
-SHA1: a9b355d4f6290bcce863d47b05d50ec2071e3811
-SHA256: 61eeef8e4978b5882ed538b3c048907a9034f59b0d8f4042aeeeb7e8fa615201
-SHA512: 8e87b195e3d68a9705538a3327cc7a5785d94a86179e7ae85a0be0c9c152e430d447117df6a53b721af1b80cb2484bcb12b07d23f06b7ab0cfed0576fb9c5c06
+Installed-Size: 88
+Depends: python3:any, suricata, influxdb, chronograf, python3-influxdb
+Filename: ./pirogue-eve-collector_1.0.2_all.deb
+Size: 22696
+MD5sum: 25b86fe705da30d0b3e7294d1454b08b
+SHA1: 7b9f84818b0d48cc283e014fc4904570a309f7d9
+SHA256: a4828f1e23810a09a53c953d3f5f72c2e1a01be7435e77532b074f93869179ed
+SHA512: 99d3d45c2a8a03b2d116a999342ff1c88a6f62f4440b815b517674778fd62c7723c786069b3ba59bf0237e1daab3ba5886e3bae5822b4e0cf87a48dac2812d5b
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue Suricata alarm collector
 
 Package: pirogue-flow-inspector
 Architecture: all
-Version: 1.0.0
+Version: 1.0.1
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 72715
-Depends: influxdb, python3-influxdb, python3-pip, python3-nfstream
-Filename: ./pirogue-flow-inspector_1.0.0_all.deb
-Size: 23390716
-MD5sum: c66546e3ef310ff0ec25387755c51a1f
-SHA1: 7a99bca8905731e413f2732bf73acd04570c5d72
-SHA256: 23a1103dd6702b545fe21bad48492fe4047d925e8511de0c8bebbec8a52c0857
-SHA512: 206d75e838c08e18acc954955557c2f9e6e96d58282424d0c696ae318d8c73b52a427d95605e3c27b6e2b1085ce874c59acb910a39cac3f01cae7b3a3b9945da
+Depends: python3:any, influxdb, python3-influxdb, python3-nfstream, python3-numpy (>= 1:1.22), python3-communityid, python3-geoip2 (>= 4.5.0), python3-systemd
+Filename: ./pirogue-flow-inspector_1.0.1_all.deb
+Size: 23389792
+MD5sum: 3d7594ab1ce6886e9366a5fccdbb0dcd
+SHA1: bd27b20b69b7314778f44752fb8205e4e0c3168f
+SHA256: ac2dfd76bbf7025a936de0d5655a35126ec8b5d179647a0d53be8a42ee70d22e
+SHA512: a578da83d0ebaa60ced5e03134ae92fcc417cf3abbe7adf4667149a9b3be3472040bf72381fca0d68e75cd33b19e7ebed2b755185142739e82eb47e6782fb26f
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue DPI
 
@@ -120,37 +120,55 @@ Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue maintenance scripts
 
 Package: pirogue-screen-st7789-240x240
-Architecture: all
-Version: 1.0.1
+Architecture: arm64
+Version: 1.0.2
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 412
+Installed-Size: 3896
 Provides: pirogue-screen-controller
-Depends: python3-influxdb, influxdb
-Filename: ./pirogue-screen-st7789-240x240_1.0.1_all.deb
-Size: 66832
-MD5sum: 4f7e8d98535d56294b1997c17bed49da
-SHA1: 8fdde909abae73c756ebefdb33308d873caa77b1
-SHA256: 4987f322d813f6a3c024ec06063d1c7f638ef0bb04c8430c6159fab5598499f3
-SHA512: bc4239172fa6709181d93b8f8b708eb965610c16a6effca854f35ca98c23f3be266ee7b3ba3abd047c2041135023db1edd1ad81dea3c6f4c950e2e0c649af934
+Depends: python3:any, influxdb, net-tools, python3-influxdb, python3-numpy, python3-pil, python3-systemd
+Filename: ./pirogue-screen-st7789-240x240_1.0.2_arm64.deb
+Size: 676360
+MD5sum: 19d1d84490c99093c4de8ce228223416
+SHA1: 2989fbea9a34e37c06d76bab2755f456709db431
+SHA256: 3ffed3d50196b043284a4b519238db99552c94b754a046e9e812832fb386e49d
+SHA512: c6fd0315c1aaab06bf2b3af9d6b193c3f6eac188d27ddbdee836eceb51152070d15bff9eea05c0a661663e3ac5927c36429f7b38fd66c745d803fe95cb8ffe6d
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue 240x240px ST7789 screen driver
+
+Package: pirogue-screen-st7789-240x240
+Architecture: armhf
+Version: 1.0.2
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 3860
+Provides: pirogue-screen-controller
+Depends: python3:any, influxdb, net-tools, python3-influxdb, python3-numpy, python3-pil, python3-systemd
+Filename: ./pirogue-screen-st7789-240x240_1.0.2_armhf.deb
+Size: 670936
+MD5sum: 710ed8d1c9362d309dce5bd2d120319b
+SHA1: 6863a17ceb9b464fc57fcd418f46c487663a3a6f
+SHA256: 13f7108775adc4833363f85e67bb14db45a5908f2082b226335c1d6558bbe307
+SHA512: 3c83b12ce0ce9e4fff4b0e09ed1bff53c9af19b6a89e3d764b5ac1dd97c596eadbc09391a3cdd777464d768d59bf673ce341ac384b5535c3518b2acaca94784c
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue 240x240px ST7789 screen driver
 
 Package: pirogue-tools
 Architecture: all
-Version: 1.0.0
+Version: 1.0.1
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 10
-Depends: python3-pip, tcpdump, vim, git, gnupg2, htop, jq, adb
-Filename: ./pirogue-tools_1.0.0_all.deb
-Size: 1900
-MD5sum: c5fd524f6f935c04cc5ced418151a46d
-SHA1: 45aa7a7aa8ede94e0b2262b224f796767b2c6708
-SHA256: e660e7ddaf750436729eca5635d2e5f670fb40743b64173efb393bae5acb5af1
-SHA512: d23c0f192cf9fa5378e7d4e7edb6c970b55a31324e725474ad424eb44754c7195e9a1395f557263ce1d44b0298ceb31af8dd9114972a0c37ca303317394c340c
+Installed-Size: 9
+Depends: tcpdump, vim, git, gnupg2, htop, jq, adb, python3-mvt, mitmproxy, frida
+Filename: ./pirogue-tools_1.0.1_all.deb
+Size: 2068
+MD5sum: 98a9e996726ac576043a073f288a9f42
+SHA1: 2d07cb7cf03bc73bf5ca63bbc684863f9f43d79f
+SHA256: 330a25a236dd5786c14ebc8262b57e92c628b2adcbae91fae6f0e701e107e89f
+SHA512: 95b721dba842d4f6d23a3f34955100d703bff13ca08b63a01d40ad74ee3e6e91d1b4ce0f3e73415c4013bbb9d7d53cd4e02f12fd0e0bd5e72b2ea647d9906dd9
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install all PiRogue additional tools
 
