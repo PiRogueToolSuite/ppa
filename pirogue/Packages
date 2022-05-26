@@ -32,6 +32,23 @@ SHA512: a6088297a1d03d9d937f9fdf746d2e429f377692f78469905d3fe94a0ad165dc8ed25a26
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install all PiRogue packages
 
+Package: pirogue-cli
+Architecture: all
+Version: 1.0.0-beta
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 65
+Depends: python3:any, python3-requests, python3-rich, python3-pydbus, python3-libusb1, python3-gi, frida, tshark
+Filename: ./pirogue-cli_1.0.0-beta_all.deb
+Size: 10816
+MD5sum: bf6b2b84422ba14622e5209219074168
+SHA1: 707e47a3c395772a41fedc775e0fc632e5b000b6
+SHA256: 49201c16150aedc5a2396507c1b5a738cf337af8c474e8453f8b543e23f79615
+SHA512: daac387b731a3ededf72d606ac702414cd1b18b728f977c8b359e45c62c6daa83497ca96d3e383556cdd55c4e2e1aa0951158ba89c39890c603874f99de3be85
+Homepage: https://github.com/PiRogueToolSuite/pirogue-cli
+Description: Provision PiRogue CLI tool
+
 Package: pirogue-dashboard
 Architecture: all
 Version: 1.0.1
