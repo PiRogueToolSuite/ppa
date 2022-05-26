@@ -102,6 +102,25 @@ SHA512: 5794b29c7f41aeb8a37a7b3bb08f19965e2b7608c70d1bdcf2c01c3ffadae8440d469757
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install PiRogue's hat requirements
 
+Package: pirogue-hat
+Architecture: all
+Version: 1.0.1
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 14
+Depends: i2c-tools
+Conflicts: fake-hwclock
+Replaces: fake-hwclock
+Filename: ./pirogue-hat_1.0.1_all.deb
+Size: 2320
+MD5sum: 74409c7321d036f649a76e726162d7be
+SHA1: 991f327cf2849bc4b509892591ce772f03a3188d
+SHA256: 85cc012daee3a36309039ed380e2b695afef3fc830a9807bac91879d175abdbb
+SHA512: 4cbad8b3c8a5c80dd837b965005d41e1f85efa8107da18acdf508b37225ff986178d68212f399f2a67186f633df46b13a53155c605a5901de6e9ac0c6d3c4cb7
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Install PiRogue's hat requirements
+
 Package: pirogue-maintenance
 Architecture: all
 Version: 1.0.1
