@@ -83,6 +83,23 @@ SHA512: 99d3d45c2a8a03b2d116a999342ff1c88a6f62f4440b815b517674778fd62c7723c78606
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue Suricata alarm collector
 
+Package: pirogue-eve-collector
+Architecture: all
+Version: 1.0.3
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 88
+Depends: python3:any, suricata, influxdb, chronograf, python3-influxdb, python3-systemd
+Filename: ./pirogue-eve-collector_1.0.3_all.deb
+Size: 22724
+MD5sum: 56f847881c1613059c2b2822111a4ac9
+SHA1: 64ab4aa48c3d702850455bc0b54d5d535e336fd0
+SHA256: 5f7924d86d3d5747215579db2d6c5cb5e0b12776365c165f184154886b05f9d5
+SHA512: cddfc2db5a77f96efcfba5bc308b962d0b057e03f820d5dc16e33e62d6f491d41d2f4e1cbf7c69a49bfd800fc89bdc961f59f44c78bf3006efbdd48130698567
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue Suricata alarm collector
+
 Package: pirogue-flow-inspector
 Architecture: all
 Version: 1.0.1
@@ -97,6 +114,23 @@ MD5sum: 3d7594ab1ce6886e9366a5fccdbb0dcd
 SHA1: bd27b20b69b7314778f44752fb8205e4e0c3168f
 SHA256: ac2dfd76bbf7025a936de0d5655a35126ec8b5d179647a0d53be8a42ee70d22e
 SHA512: a578da83d0ebaa60ced5e03134ae92fcc417cf3abbe7adf4667149a9b3be3472040bf72381fca0d68e75cd33b19e7ebed2b755185142739e82eb47e6782fb26f
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue DPI
+
+Package: pirogue-flow-inspector
+Architecture: all
+Version: 1.0.2
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 72715
+Depends: python3:any, influxdb, python3-influxdb, python3-nfstream, python3-numpy (>= 1:1.22), python3-communityid, python3-geoip2 (>= 4.5.0), python3-systemd
+Filename: ./pirogue-flow-inspector_1.0.2_all.deb
+Size: 23389444
+MD5sum: 005e924f921f184a99f65d902a4e7b82
+SHA1: 7d9daa6d216b1ea2ccd5b419c7f253ffb3786a81
+SHA256: be4df3d1b96bec56a683e37be1e74c507d4c23263e496e32e89753c96eff85d5
+SHA512: 6e1a1f7609384c5d5defdc62192d77f34c30d06d0c5470adeafa1c192c029cca12622107bd77d7fd3e6cf55e4f660f5c2a8cd1fcd81facba4f10c6527522dfd6
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue DPI
 
@@ -205,6 +239,23 @@ MD5sum: 98a9e996726ac576043a073f288a9f42
 SHA1: 2d07cb7cf03bc73bf5ca63bbc684863f9f43d79f
 SHA256: 330a25a236dd5786c14ebc8262b57e92c628b2adcbae91fae6f0e701e107e89f
 SHA512: 95b721dba842d4f6d23a3f34955100d703bff13ca08b63a01d40ad74ee3e6e91d1b4ce0f3e73415c4013bbb9d7d53cd4e02f12fd0e0bd5e72b2ea647d9906dd9
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Install all PiRogue additional tools
+
+Package: pirogue-tools
+Architecture: all
+Version: 1.0.2
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 9
+Depends: tcpdump, vim, git, gnupg2, htop, jq, adb, python3-mvt, mitmproxy, frida, libimobiledevice-utils
+Filename: ./pirogue-tools_1.0.2_all.deb
+Size: 2128
+MD5sum: 88cd507fb5b5a7aa9993d06ddcd20deb
+SHA1: 6937d8db4fecc03e484ef2fdf148e0af5374f4ea
+SHA256: 91b64ae142344cc0832064627e4098e1bf1658f8be5df9c0c6c87a2f86495417
+SHA512: 96efff8acb8e22540b5de5976e42c64894502dcc686c71d85a00c7e66c14fcd392b85cc824776a3b1ad78a7e18e3a88c1efd674436dd9fc9b049c5691c980378
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install all PiRogue additional tools
 
