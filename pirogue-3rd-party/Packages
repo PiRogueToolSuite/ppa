@@ -297,6 +297,26 @@ Description: reads and extracts files from password-encrypted iOS backups
  FIXME: Long description.
 
 Package: python3-maxminddb
+Architecture: amd64
+Version: 2.2.0-1~pirogue1
+Priority: optional
+Section: python
+Source: maxminddb
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 81
+Provides: python3.9-maxminddb
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.14), libmaxminddb0 (>= 1.0.2)
+Filename: ./python/python3-maxminddb_2.2.0-1~pirogue1_amd64.deb
+Size: 19688
+MD5sum: 59f4fc05851ec13f3ff8612734caeefd
+SHA1: 27df1b7410a1664129de49af175f65ead9b56490
+SHA256: 55128b53fc7832ba2b0fdcbdc29311346d0dbe258c039d53151954c082c9e029
+SHA512: bbbe4106fd4f52c54805be850f1e0e1bde2f3d74bee95988bafab83c35369d61235c18ce9584c59a7f081d85bdab4a20a5f57ca61cf9666582528499855a5fba
+Homepage: http://www.maxmind.com/
+Description: Reader for the MaxMind DB format
+ FIXME: Long description.
+
+Package: python3-maxminddb
 Architecture: arm64
 Version: 2.2.0-1~pirogue1
 Priority: optional
@@ -373,6 +393,36 @@ SHA512: 4c8d7853f527d23d4b82ea9ca3e1006b3fc58a2e8c28dd227ad14409360b46a1502fc0f4
 Homepage: https://github.com/avibrazil/NSKeyedUnArchiver
 Description: decodes Apple's NSKeyedArchiver
  FIXME: Long description.
+
+Package: python3-numpy
+Architecture: amd64
+Version: 1:1.22.1-1+pirogue1
+Priority: optional
+Section: python
+Source: numpy
+Maintainer: Sandro Tosi <morph@debian.org>
+Installed-Size: 29365
+Provides: dh-sequence-numpy3, python3-f2py, python3-numpy-abi9, python3-numpy-api15, python3-numpy-dev, python3.9-numpy
+Depends: python3-pkg-resources, python3 (<< 3.10), python3 (>= 3.9~), python3.9:any, python3:any, libblas3 | libblas.so.3, libc6 (>= 2.29), liblapack3 | liblapack.so.3
+Suggests: gcc, gfortran, python-numpy-doc, python3-dev, python3-pytest
+Filename: ./python/python3-numpy_1.22.1-1+pirogue1_amd64.deb
+Size: 4229824
+MD5sum: 2a1517f2c5830cc32ca7cf03b10bb854
+SHA1: 4f22ccb835834ad29fa8e9566b2c7d2902e6d280
+SHA256: 13a9b004c08713a5e8bb31f4237d17d158331745529638ea45cc49c83970e95b
+SHA512: 7363c893f714d75e560434a6237ef0a0cfa61d3110076158619ec4fd9a83ef460bcdff9629dedd949566bfb4c8f7b145830e7e2c54f906ad6898bf4c8e829399
+Homepage: http://www.numpy.org/
+Description: Fast array facility to the Python 3 language
+ Numpy contains a powerful N-dimensional array object, sophisticated
+ (broadcasting) functions, tools for integrating C/C++ and Fortran
+ code, and useful linear algebra, Fourier transform, and random number
+ capabilities.
+ .
+ Numpy replaces the python-numeric and python-numarray modules which are
+ now deprecated and shouldn't be used except to support older
+ software.
+ .
+ This package contains Numpy for Python 3.
 
 Package: python3-numpy
 Architecture: arm64
