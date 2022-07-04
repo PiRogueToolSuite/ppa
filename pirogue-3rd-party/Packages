@@ -1,4 +1,22 @@
 Package: chronograf
+Architecture: amd64
+Version: 1.9.1-1
+Priority: extra
+Section: default
+Maintainer: contact@influxdb.com
+Installed-Size: 97995
+Filename: ./chronograf_1.9.1-1_amd64.deb
+Size: 33711326
+MD5sum: fb85dc6f80bb1587f15c294ea4232800
+SHA1: 904028d504cf9ba4b748a8f6d992bf1bd066bd4c
+SHA256: 223802d0ff60a5a374f2c76acce7de5f708d97859853de07ec13164591b62f07
+SHA512: 27e849381295d457f7dd41d0687e2ce6139d1ee22eddf455ade5501c382c1f583b706e7ecda5f70901ca7ffbbd8d40a466aff5376b64c4c7a5f1ef9f777375bd
+Homepage: https://github.com/influxdata/chronograf
+Description: Open source monitoring and visualization UI for the entire TICK stack.
+License: AGPLv3
+Vendor: InfluxData
+
+Package: chronograf
 Architecture: arm64
 Version: 1.9.1-1
 Priority: extra
@@ -35,40 +53,77 @@ License: AGPLv3
 Vendor: InfluxData
 
 Package: frida
+Architecture: amd64
+Version: 15.1.17~pirogue2
+Priority: optional
+Section: python
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 169431
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, python3-colorama, python3-prompt-toolkit, python3-pygments, libc6 (>> 2.31), libc6 (<< 2.32)
+Filename: ./frida_15.1.17~pirogue2_amd64.deb
+Size: 44178736
+MD5sum: fc15536c8df17c2c2d3d445b7914be8f
+SHA1: 457bd1b18cff6b037e4ee639d8bc5b33c5d7e681
+SHA256: 2051de6736b6fb8670eb305ddbdce08d3434bbff5bcdac5bf65cfc9f28881081
+SHA512: a645d8c5888202dfbf764aa9ec739da1eeba84473780128d63ba1dcacb091380b5af1e8c072800763d27f01692f32cafb8f817b30e304d0c7353de053fdba028
+Homepage: https://frida.re/
+Description: dynamic instrumentation toolkit for reverse-engineering
+ FIXME: Long description.
+
+Package: frida
 Architecture: arm64
-Version: 15.1.17~pirogue1
+Version: 15.1.17~pirogue2
 Priority: optional
 Section: python
 Maintainer: Cyril Brulebois <cyril@debamax.com>
 Installed-Size: 145667
 Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, python3-colorama, python3-prompt-toolkit, python3-pygments, libc6 (>> 2.31), libc6 (<< 2.32)
-Filename: ./frida_15.1.17~pirogue1_arm64.deb
-Size: 37732244
-MD5sum: 32093385471f8b642c0b76f5af4c06ea
-SHA1: bd793e9070060a2d65da6c2983811649db018eb5
-SHA256: b4a2f6509892e564b138aa83be3e46af51f3822ff248dd789a9886616ed0a66a
-SHA512: 1b200dd1683cffb259dcc43186a001e797b52e06dcabc1ef2f454d3c17ed2ee0537bf2ae4ac0018145e12fac67f0cebc50b57c95997ae53b6efe90e8ef4f942a
+Filename: ./frida_15.1.17~pirogue2_arm64.deb
+Size: 37733268
+MD5sum: 933afc5308b207693531edda41f6c4d6
+SHA1: e8284dfc667b3cfdcb7d83ac8855d1fc508d230f
+SHA256: 39505083f299f39997063353925405bb7a28ec79f61204a5f7bb786acf5eeac3
+SHA512: 15bb8fd3a51538b89ce4392bd5cdd948b9e23d942a4181a9557ddd674a683bdb4e6af48ea1798f7dd090eba8c9fb793edc0c8b9447ed39499c74fbf8e382cea9
 Homepage: https://frida.re/
 Description: dynamic instrumentation toolkit for reverse-engineering
  FIXME: Long description.
 
 Package: frida
 Architecture: armhf
-Version: 15.1.17~pirogue1
+Version: 15.1.17~pirogue2
 Priority: optional
 Section: python
 Maintainer: Cyril Brulebois <cyril@debamax.com>
 Installed-Size: 101481
 Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, python3-colorama, python3-prompt-toolkit, python3-pygments, libc6 (>> 2.31), libc6 (<< 2.32)
-Filename: ./frida_15.1.17~pirogue1_armhf.deb
-Size: 35877768
-MD5sum: c07e31faed6c0f084e77cc60c973e2db
-SHA1: b48fda51182706bcc0711428353b39d223043a81
-SHA256: 9ae0d78ef7fb444cae8b4a846ac914a49b9c8a54510fb67e3d63829e7ee34bef
-SHA512: 0090bfc769bc3875988f36a4c4abe9e23774a11a8fff81a098ad09dd77e7138de1f70b5e1ff80745e30724e9f342ba40e4a702403661f1ef34cd627816b72076
+Filename: ./frida_15.1.17~pirogue2_armhf.deb
+Size: 35880504
+MD5sum: 79770c5f5fc928e596bafa2384640699
+SHA1: 0e957c13539b6b06ed7b1b9c5ea3c2355fd7c5a3
+SHA256: b2cb40ed51a9557c649f2b2057b0c3660759aad5ad6977609dcc756dfd257a74
+SHA512: f9557ee101cdc1d9426e3cefdfc093fc1f52cadb8b6472ee59dffcca259229252cfc07a40323b80adbf420601f7428300b857a8ee2f4e406a803fa451181fcbd
 Homepage: https://frida.re/
 Description: dynamic instrumentation toolkit for reverse-engineering
  FIXME: Long description.
+
+Package: grafana
+Architecture: amd64
+Version: 8.1.5
+Priority: extra
+Section: default
+Maintainer: contact@grafana.com
+Installed-Size: 184676
+Depends: adduser, libfontconfig1
+Filename: ./grafana_8.1.5_amd64.deb
+Size: 57431320
+MD5sum: 6b33e79c23fc17b6b6ca21558622e258
+SHA1: 89a082d94657a0f0421bd3e7b39537504aee1c66
+SHA256: 3512041e3ff6adbd34a1c1823e29f6e149e5102db31b429238a69d40c32eda5f
+SHA512: d0013e5318f35f1eed2c6590e139fe4cd69fd68814e67187de3ddad2ef805333d9dc8605aa90cc7cea695fe47dba8012c8b3f8639eec7fcbc1e0cded889a4e51
+Homepage: https://grafana.com
+Description: Grafana
+License: "Apache 2.0"
+Vendor: Grafana
 
 Package: grafana
 Architecture: arm64
@@ -107,6 +162,25 @@ Homepage: https://grafana.com
 Description: Grafana
 License: "Apache 2.0"
 Vendor: Grafana
+
+Package: influxdb
+Architecture: amd64
+Version: 1.8.10-1
+Priority: extra
+Section: default
+Maintainer: support@influxdb.com
+Installed-Size: 149777
+Depends: curl
+Filename: ./influxdb_1.8.10-1_amd64.deb
+Size: 54420884
+MD5sum: 4bfc39392cd8af40531d27c10425c7f9
+SHA1: 41a56bf05b97cac758ed1e6b58dc46b7e3fd2de4
+SHA256: b2ace09231575df7309a41cea6f9dc7ad716fe4389dc06ac04470a14bd411456
+SHA512: f35088826cb18094578821550e05d75faed80a0768955bafca0f1b5eb3d9cafb7710f08c05c90460b3404c012864d55e3ec86f3baf04230e4e9a46189d5319cd
+Homepage: https://influxdata.com
+Description: Distributed time-series database.
+License: Proprietary
+Vendor: InfluxData
 
 Package: influxdb
 Architecture: arm64
@@ -359,6 +433,31 @@ Description: Fast array facility to the Python 3 language
  software.
  .
  This package contains Numpy for Python 3.
+
+Package: python3-nfstream
+Architecture: amd64
+Version: 6.3.5~ds2
+Priority: optional
+Section: net
+Source: nfstream
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 1940
+Depends: libc6 (>= 2.14), python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3-dpkt (>= 1.9.2), python3-numpy, python3-pandas (>= 1.1.5), python3-psutil (>= 5.8.0), python3:any, python3-cffi (>= 1.14.5)
+Filename: ./python3-nfstream_6.3.5~ds2_amd64.deb
+Size: 424540
+MD5sum: faf569e98f20108e9402cf0131894848
+SHA1: 256c64287b3fa3426a0c8628fb8073b67f5ca829
+SHA256: d0743eae3dab09c25825637a98770b76f198948c8eb03e4bdcb7f1fa1054be27
+SHA512: 2a79e51ab974c3ce893803f42fed70df444410cc42c023f28964a43164224905390049a0308aa1f2b1680dc1a01db0bda7f2ef9a85723dde8a117055d6a81d4b
+Homepage: https://www.nfstream.org/
+Description: flexible network data analysis framework
+ NFStream is a multiplatform Python framework providing fast, flexible,
+ and expressive data structures designed to make working with online or
+ offline network data both easy and intuitive. It aims to be the
+ fundamental high-level building block for doing practical, real world
+ network data analysis in Python. Additionally, it has the broader goal
+ of becoming a common network data analytics framework for researchers
+ providing data reproducibility across experiments.
 
 Package: python3-nfstream
 Architecture: arm64

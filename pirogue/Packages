@@ -5,13 +5,30 @@ Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 30
-Depends: netfilter-persistent, iptables-persistent, hostapd, dnsmasq
+Depends: netfilter-persistent, iptables-persistent, hostapd, dnsmasq, rfkill
 Filename: ./pirogue-ap_1.0.0_all.deb
-Size: 3608
-MD5sum: 421e2a9837b28dfaeb42c5093e5bd38b
-SHA1: 8ca8e7c1c442d2850e1099a95088b464be8fdaff
-SHA256: 012a0eae46c1cd6dac2962aaa8a67191b719648a8040a2a75141a3f73a99fbd6
-SHA512: 233757de2ed2f641a6ca0f7fcd1d522a857e10acc1a9cd410cf5a1ad89361309e08b88ae652e0d6520fe6174fe9af92a7981d3d4ebed644fd584c7e466dedefe
+Size: 4028
+MD5sum: 7607748aa0ed7aa6ee390c54c0824699
+SHA1: 40ba3a68ef084b77d6ce66c9e1253f7a58f0d4a8
+SHA256: bab8110e59a295f52cd6d0cd8b250007eb808d45daf04a6a2c59b1d5078a2e4e
+SHA512: 1370443cae4c0a6866b22013c0fdd2250406f3599e8684f86b8091bf391e457f953a9c21dcbeff21f6a89cb0544b9824ce001e7e3242bd668b33384cbf26ec1c
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Install PiRogue wi-fi AP configuration
+
+Package: pirogue-ap
+Architecture: all
+Version: 1.0.1
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 30
+Depends: netfilter-persistent, iptables-persistent, hostapd, dnsmasq, rfkill
+Filename: ./pirogue-ap_1.0.1_all.deb
+Size: 4120
+MD5sum: 67c0b32c3406b5bb525e5f8e4cc92ac7
+SHA1: 39fd3670a855d3179d99c6460494e4988543b6af
+SHA256: 6e11532b54367dfe5f0711e0136522efd9592ce3c7bf792f0214c4e5e5b69ba8
+SHA512: e84a64e49f3f8b5d9a33eb2b0d96e1f49d1caa5fe967235330318fe0e8ab45bbe6e7f6906d2bdc341fa3c343c079a275b367c46eda6e588b95fecdbf8c644ac0
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install PiRogue wi-fi AP configuration
 
@@ -100,6 +117,23 @@ SHA512: cddfc2db5a77f96efcfba5bc308b962d0b057e03f820d5dc16e33e62d6f491d41d2f4e1c
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue Suricata alarm collector
 
+Package: pirogue-eve-collector
+Architecture: all
+Version: 1.0.4
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 83
+Depends: python3:any, suricata, influxdb, chronograf, python3-influxdb, python3-systemd
+Filename: ./pirogue-eve-collector_1.0.4_all.deb
+Size: 21896
+MD5sum: adffb4596ceab058c8bc91b0d266fa0c
+SHA1: 84e0cc0cb0534b7cabe8f43dc642e953967a6e3b
+SHA256: c5f590d5ac9cd246bf0b0d4b1cde69684bd8616fba23d37008aeb85b6c8220a5
+SHA512: 2f327898a6b2bdd9d9fb142803510873b1704566b2b7a351588728d2ae0094c087b59c2d6e4395a8ac6554688a5722e8f72eba8e22b68ec83a60ad0c99acdca5
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue Suricata alarm collector
+
 Package: pirogue-flow-inspector
 Architecture: all
 Version: 1.0.1
@@ -131,6 +165,23 @@ MD5sum: 005e924f921f184a99f65d902a4e7b82
 SHA1: 7d9daa6d216b1ea2ccd5b419c7f253ffb3786a81
 SHA256: be4df3d1b96bec56a683e37be1e74c507d4c23263e496e32e89753c96eff85d5
 SHA512: 6e1a1f7609384c5d5defdc62192d77f34c30d06d0c5470adeafa1c192c029cca12622107bd77d7fd3e6cf55e4f660f5c2a8cd1fcd81facba4f10c6527522dfd6
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue DPI
+
+Package: pirogue-flow-inspector
+Architecture: all
+Version: 1.0.3
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 66755
+Depends: python3:any, influxdb, python3-influxdb, python3-nfstream, python3-numpy (>= 1:1.22), python3-communityid, python3-geoip2 (>= 4.5.0), python3-systemd, python3-netifaces
+Filename: ./pirogue-flow-inspector_1.0.3_all.deb
+Size: 21558884
+MD5sum: 106d9231062de8dcec76a98313826cb6
+SHA1: 9334118675a593aeab5e861ed8b80fd6d4189ec7
+SHA256: 88fde78da622621c5a2aa574b1b3a3b10d0439fc351915ef40c7d7c1c0bb0be4
+SHA512: c5b90bd5400a5b9c3df5bb4a67ab84b3fe7d988a71656b53a4abd4b6d1e645a3e84b4269aca0c58bb789c72dad2cc8ed3a070ed912a7bb229d170bb24a4f6a2f
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue DPI
 
