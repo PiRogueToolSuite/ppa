@@ -129,10 +129,10 @@ Installed-Size: 137
 Depends: python3:any, python3-requests, python3-rich, python3-psutil, python3-semver, python3-pydbus, python3-libusb1, python3-netifaces, python3-yaml, python3-gi, adb, frida, tshark
 Filename: ./pirogue-cli_1.0.1_all.deb
 Size: 19860
-MD5sum: 4a4a9746a718ab2a98974d092362d326
-SHA1: fbdfae299420d828ec089743c06e9289fce7c95c
-SHA256: 0be0a4225e4abcaac35fb6811e68eab44285dfd55e2181004b502cee913e8dfd
-SHA512: 2074126b8a54fea152a4b016ee5e6cc516ae247a989268177d3be33179572edf14acfef536561fe8f27fce04ee63ae73eac04605dec2a1f9197e972ce2e6b203
+MD5sum: 117e9bed4833c6b671e0d2278c93c705
+SHA1: ae7fab4adf8f41e72b199e288883a2b68dfe38d2
+SHA256: 6507d6e7c8b785c33b54f5123cfed56af27e7531f6096183de33b8984bde82c3
+SHA512: 583264cc43b9be1da6f726c7a02e75a5762db650bed40e5a2745d288c9263c9a1f5b31c0e6bcbf50fce2b2dd92d8c251c3ed5b1a8c4f29e21c3404bc66841dc3
 Homepage: https://github.com/PiRogueToolSuite/pirogue-cli
 Description: Provision PiRogue CLI tool
 
