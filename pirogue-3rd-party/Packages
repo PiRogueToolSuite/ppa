@@ -375,6 +375,25 @@ Homepage: https://github.com/mvt-project/mvt
 Description: Mobile Verification Toolkit
  FIXME: Long description.
 
+Package: python3-mvt
+Architecture: all
+Version: 2.1.4-1~pirogue1
+Priority: optional
+Section: python
+Source: mvt
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 474
+Depends: python3-adb-shell, python3-appdirs (>= 1.4.4), python3-click, python3-cryptography, python3-iosbackup, python3-packaging, python3-requests, python3-rich, python3-simplejson, python3-tld, python3-usb1, python3-yaml, python3:any
+Filename: ./python/python3-mvt_2.1.4-1~pirogue1_all.deb
+Size: 61940
+MD5sum: 6d43578affa066e51c5225f4b3dfda4a
+SHA1: b2ba98ce980494548189cdfe61cc4eed6de34f76
+SHA256: 11f845b0c0a40bdb08f97c1b8a71e067f743153855e3567460429e7dc9fc07e6
+SHA512: 5b6b0e3390137e3a348d10e1efa66ef95cb82107c8a256ce35b89a18ca0692419012af77220ef78632b1ede50b07808e54c136c3d48e7ab2b37a6bc8f253b6b7
+Homepage: https://github.com/mvt-project/mvt
+Description: Mobile Verification Toolkit
+ FIXME: Long description.
+
 Package: python3-nskeyedunarchiver
 Architecture: all
 Version: 1.5-1~pirogue1
