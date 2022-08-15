@@ -43,11 +43,11 @@ Provides: pirogue-network-routing
 Depends: netfilter-persistent, iptables-persistent, hostapd, dnsmasq, rfkill, dhcpcd5
 Conflicts: pirogue-network-routing
 Filename: ./pirogue-ap_1.0.2_all.deb
-Size: 4556
-MD5sum: 2fa35cfa416b734eca3c94d66ee50a8d
-SHA1: 22fb961653da360ea31fe95ab6206a120d40c948
-SHA256: e79b053b7ccdec233171aa0cc1c3860ce89198f8ce7ed5c50b0c93059e881e1f
-SHA512: 741c0f1cc42cb3f674f877dcdda385848fe33a37582055e9f8c336f9ea73270b4759aab8d226ecd8a52ba5a57822bde6c78b4854bedc64c4e8a8670a518adcc4
+Size: 4596
+MD5sum: 8ea413a6a054e674b90dd01c568eeebc
+SHA1: f517d1410360e0b7838e6ca2b06a7b922726367e
+SHA256: 724b6d7886c013b4af570a2191092f0bc49b8b2b0662a9e1d760676128ff1b52
+SHA512: cc5b185bcee78327e4caccae5608d29a3209c81e0e63b2f26a78077cdb0ed2a5b83fe618508999e9783573031b46166157bf4982fc65f87982cc37a547973ffc
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install PiRogue wi-fi AP configuration
 
