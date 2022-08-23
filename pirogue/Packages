@@ -172,6 +172,23 @@ SHA512: d930a4a196515dea22c0a668afd8edff436400cf26ffe35132c763f166a60b318cc12662
 Homepage: https://github.com/PiRogueToolSuite/pirogue-cli
 Description: Provision PiRogue CLI tool
 
+Package: pirogue-cli
+Architecture: all
+Version: 1.0.3
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 139
+Depends: python3:any, python3-requests, python3-rich, python3-psutil, python3-semver, python3-pydbus, python3-libusb1, python3-netifaces, python3-yaml, python3-gi, adb, frida, tshark
+Filename: ./pirogue-cli_1.0.3_all.deb
+Size: 20560
+MD5sum: 6187a12954ac4f11f9986ddf5aedeb95
+SHA1: 65d0ab2e2259ea50a5d65eb5e8ca5eb2cfe63f24
+SHA256: d3fd71eae099524e6c64d68ea4b1abb0adf8f239cf4d70c0887c39ed670da1cf
+SHA512: 1a75717a495d0f2477cf66ddf40b64913481955ee8fb6e32f71179a62efc4cd28cb2b684a6dad4b3697526e6e29a03958cd115ff535688c1d57e17238a0708ea
+Homepage: https://github.com/PiRogueToolSuite/pirogue-cli
+Description: Provision PiRogue CLI tool
+
 Package: pirogue-dashboard
 Architecture: all
 Version: 1.0.1
