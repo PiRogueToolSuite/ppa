@@ -195,14 +195,14 @@ Version: 1.0.4
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 148
+Installed-Size: 149
 Depends: python3:any, python3-requests, python3-rich, python3-psutil, python3-semver, python3-pydbus, python3-libusb1, python3-netifaces, python3-yaml, python3-gi, adb, frida, tshark
 Filename: ./pirogue-cli_1.0.4_all.deb
-Size: 22272
-MD5sum: d243bd6c6473db0ce7136b48944e9256
-SHA1: b21d467c0ed6c3769bb7f09f094489cf0fdf130b
-SHA256: a2626de9b08eae54c5f004e3881563997fd4d01c87b9e74ce56791248c4542e9
-SHA512: 1aa5455be775a613595489c5f6f56bc1389d0dd06c3e6539119f47baef7fda5ae179eb69d7dd9fbd7f785e59f2e4bbee5b805bf38be34f0447907d2f215685ee
+Size: 22448
+MD5sum: d757671c488a4c35a2059943255b57ad
+SHA1: 54f36530e271a8a2d68dc0bf96f48778cc73e3f8
+SHA256: 96200ed6c22ec79b57f0e4ebee2bb8a66c0abc8d36aa17cf7976811d96e72940
+SHA512: 82801ac176df8406c23028e60a9c03285995155b82716cfe9058c57dda75062d17d07dd2b47e2e672c67a6febe6495669434f83857a2d3ed321bcc924a6ed950
 Homepage: https://github.com/PiRogueToolSuite/pirogue-cli
 Description: Provision PiRogue CLI tool
 
