@@ -484,3 +484,20 @@ SHA512: 96efff8acb8e22540b5de5976e42c64894502dcc686c71d85a00c7e66c14fcd392b85cc8
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install all PiRogue additional tools
 
+Package: pirogue-tools
+Architecture: all
+Version: 1.0.3
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 9
+Depends: tcpdump, vim, git, gnupg2, htop, jq, screen, tmux, adb, python3-mvt, mitmproxy, frida, libimobiledevice-utils
+Filename: ./pirogue-tools_1.0.3_all.deb
+Size: 2172
+MD5sum: 9eb18af26665b5df36cd1a36532e9a61
+SHA1: 0b7befd0e1f7f22440331f726eb199d9d63dd928
+SHA256: acc3549576bb798f5bc0f5f0a2d42a567972be961b2bf66e8617b4fba194ff0f
+SHA512: f8a1f4c3afa4363492aa35d68838cf9a05f2bbaa80c687c20c21653c84e750a6dd419c9ce82f7665b27633f187b54eb2e895ad94e4645ee968ae0b34881cb925
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Install all PiRogue additional tools
+
