@@ -542,13 +542,13 @@ Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 9
-Depends: tcpdump, vim, git, gnupg2, htop, jq, screen, tmux, adb, python3-mvt, mitmproxy, frida, libimobiledevice-utils, apktool, scrcpy
+Depends: tcpdump, vim, git, gnupg2, htop, jq, screen, tmux, adb, python3-mvt, mitmproxy, frida, libimobiledevice-utils, apktool
 Filename: ./pirogue-tools_1.0.4_all.deb
-Size: 2220
-MD5sum: 3f14e10ad1f4b8ceaf3ea3f4455f6dbe
-SHA1: 75962afb39bd5983f2a80378aa0bb1d6650d3791
-SHA256: 3b671dc4285fba0589714306042a4f94532355b714aebf5e76e1eca6db550f95
-SHA512: cc7030f02611fd09ca6e56c8430e4b40164b8018c67117e3bcd0da0fb85c8502d38d77a1e9eb91b030dc07dce44bee84c6308a42f283442dcbc18919210e1a2b
+Size: 2208
+MD5sum: 1a02226778538591732e77e6fa94ae59
+SHA1: d728ddd9c863011a6c130ba3c55ded71bf0373c1
+SHA256: ef015bde56c47ec4b42c2b795a32f71bdd747b256e1c42eff9fb04b2f929bf66
+SHA512: 69a5295f922a4d8749f51605ac421d7fab5e3a43f2e78d74c557571fad4da40512b08bb0aa1b7561e5f9f0413f6fcbafe44ddbbcb0e51f07797c147fe6ba9e28
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install all PiRogue additional tools
 
