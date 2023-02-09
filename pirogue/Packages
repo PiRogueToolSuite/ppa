@@ -376,6 +376,23 @@ SHA512: 3760cff87a9dd9a96d8ab7496791b90e383346af38a46c3748678678be386fb0c917bbc3
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue Suricata alarm collector
 
+Package: pirogue-eve-collector
+Architecture: all
+Version: 1.0.6
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 85
+Depends: python3:any, suricata, influxdb, chronograf, python3-influxdb, python3-systemd
+Filename: ./pirogue-eve-collector_1.0.6_all.deb
+Size: 22592
+MD5sum: 3073d380a1f3d45f2be544467792f2c0
+SHA1: b8905094c3f3bb3f593409d7661d75344c681c07
+SHA256: 887a414b6fbdb7ebb69f354cfe30c488a2bd8ab817d222057125024274bc6f19
+SHA512: 81c0bdbc5bc461c253c275ce56a53ea3714dcee51d30728f5f5dfc71c151997374687c66d9aab7a88129a5718c4da01ad2d20e60b0790d9f37328de9f26d222b
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue Suricata alarm collector
+
 Package: pirogue-flow-inspector
 Architecture: all
 Version: 1.0.1
@@ -496,6 +513,23 @@ MD5sum: 24b71fd7a26874f98d3394794a2a72fc
 SHA1: 91036833eea38dcab373bf197004bdbecbe47c80
 SHA256: 3b63df1cb3ea93ed2d4cae8aca977bd4e78d9f27e9144cb198ebe11a13288ecc
 SHA512: 52f0b706c3ecc0c19a1338ca2c7b268e9a1961df59d72041e713940c9ee7fb92210b0ece538d8dffa8274ac47f7e969e272aa1f418c68658c80145475383e628
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue maintenance scripts
+
+Package: pirogue-maintenance
+Architecture: all
+Version: 1.0.2
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 21
+Depends: suricata
+Filename: ./pirogue-maintenance_1.0.2_all.deb
+Size: 3200
+MD5sum: 2ff3be384b30111d0a5539ff6efe0b4f
+SHA1: 5c03ab5a9225ad8cdce03fc2cb840b51a04b6777
+SHA256: 32a94c517581daf8b9688b5f2e2e20b3e1946da05bc3595ac94841b4bfa797af
+SHA512: f12009a0d358fc958c8c0c91fd7e954ac96132497e84aa6c69763f4baec7802c4faf91895d2e8a636c83018e4c4f8118f8311c545bc3a33cabe52e866d76f1b0
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue maintenance scripts
 
