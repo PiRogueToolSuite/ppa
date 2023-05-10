@@ -578,3 +578,20 @@ Description: flexible network data analysis framework
  of becoming a common network data analytics framework for researchers
  providing data reproducibility across experiments.
 
+Package: python3-scarlet-shark-client
+Architecture: all
+Version: 1.0.4
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 34
+Depends: python3-requests, python3:any
+Filename: ./python3-scarlet-shark-client_1.0.4_all.deb
+Size: 5440
+MD5sum: d299855cc3a9a9b99c5309a4804ee1f6
+SHA1: 874dfff013ea5a4c8b4170f1aac034c8f4141d53
+SHA256: db9a5e8953e4e6bd0a7b9fda9ef3320687391d7fa47c8c7c8c7578fb1391615f
+SHA512: 64cd9fc599e1a555da8d54212e97cfa4a6da71ac6ba6d39f151ce7bc6e9b4b328ea0ca43c65303c6886b35faca3544e5af0bf726119117ee7d4d124fe36a63c0
+Homepage: https://github.com/PiRogueToolSuite/scarlet-shark-python
+Description: Scarlet Shark REST API Python client.
+
