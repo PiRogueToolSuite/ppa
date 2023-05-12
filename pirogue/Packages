@@ -376,6 +376,23 @@ SHA512: 605e0cf4def3f1b983bd00795faebbcb228c09c9b141e3e3790a361a637274a5b1fb0857
 Homepage: https://github.com/PiRogueToolSuite/pirogue-cli
 Description: Provision PiRogue CLI tool
 
+Package: pirogue-colander-connector
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 41
+Depends: python3-rich, python3:any, python3-colander-client
+Filename: ./pirogue-colander-connector_1.0.0_all.deb
+Size: 6400
+MD5sum: 973792a4bbd401ce845a29f0823b69c7
+SHA1: a45e8bfa70f17b5c286e1be053f56157128c5214
+SHA256: 03a192d19289708f4b76b0668756f005cbadac3da50e3e02ff87ea4773caffc6
+SHA512: 48f1eb70df9d622c108cadc31301a1b3f5e195070f8e2a8656d6f530153e5918d4e33b816d5446f735567e0b16b6411f4d973d2e742f3a4d03a0fb64dfc02be2
+Homepage: https://github.com/PiRogueToolSuite/pirogue-colander-connector
+Description: CLI interface to transfer data from the PiRogue to Colander.
+
 Package: pirogue-dashboard
 Architecture: all
 Version: 1.0.1
@@ -738,4 +755,21 @@ SHA256: ef015bde56c47ec4b42c2b795a32f71bdd747b256e1c42eff9fb04b2f929bf66
 SHA512: 69a5295f922a4d8749f51605ac421d7fab5e3a43f2e78d74c557571fad4da40512b08bb0aa1b7561e5f9f0413f6fcbafe44ddbbcb0e51f07797c147fe6ba9e28
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install all PiRogue additional tools
+
+Package: python3-colander-client
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 32
+Depends: python3-coreapi, python3:any
+Filename: ./python3-colander-client_1.0.0_all.deb
+Size: 5960
+MD5sum: a8c6250cafd048bb93c0e8302866d94b
+SHA1: da6062f60142d844fffcc9365a595e8c4200644c
+SHA256: c34bda09e76f83a6acba49b18a6981368b415bc61b68238fb52b1eb37f584815
+SHA512: 7acdf1769888011e5eeaff4e967efa7c08dac8dad0ae1c0fe05215f5c5e97009fdc272fc9e92531e83e7dcbcdb8c3125f0e6e32715812e101c6add2ab5902266
+Homepage: https://github.com/PiRogueToolSuite/colander-python-client
+Description: Colander REST API Python client.
 
