@@ -385,11 +385,11 @@ Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 41
 Depends: python3-rich, python3:any, python3-colander-client
 Filename: ./pirogue-colander-connector_1.0.0_all.deb
-Size: 6400
-MD5sum: 973792a4bbd401ce845a29f0823b69c7
-SHA1: a45e8bfa70f17b5c286e1be053f56157128c5214
-SHA256: 03a192d19289708f4b76b0668756f005cbadac3da50e3e02ff87ea4773caffc6
-SHA512: 48f1eb70df9d622c108cadc31301a1b3f5e195070f8e2a8656d6f530153e5918d4e33b816d5446f735567e0b16b6411f4d973d2e742f3a4d03a0fb64dfc02be2
+Size: 6436
+MD5sum: df829d7e38ac644541f0a3034511acbe
+SHA1: db53df665eee659a082c05b2ebf08882bedc11b3
+SHA256: 925b07f10f97261e00186da781c3eac11ada03f5445a681bb301a8bdbff6b7fd
+SHA512: e20df0a94f52d9fed33c827cac956c77e069ea58d48899dcb0002350a7e66fc3f8fca3881db6b74d219b4fa4b834ee2431e55d880f74adcbfc30ba9a51076d53
 Homepage: https://github.com/PiRogueToolSuite/pirogue-colander-connector
 Description: CLI interface to transfer data from the PiRogue to Colander.
 
