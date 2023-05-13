@@ -393,6 +393,23 @@ SHA512: e20df0a94f52d9fed33c827cac956c77e069ea58d48899dcb0002350a7e66fc3f8fca388
 Homepage: https://github.com/PiRogueToolSuite/pirogue-colander-connector
 Description: CLI interface to transfer data from the PiRogue to Colander.
 
+Package: pirogue-colander-connector
+Architecture: all
+Version: 1.0.1
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 43
+Depends: python3-rich, python3:any, python3-colander-client
+Filename: ./pirogue-colander-connector_1.0.1_all.deb
+Size: 6852
+MD5sum: b35d39dd0a8b74f6c291d48c8f7a646e
+SHA1: f291ecd1069373b6f509a5ab804f73cb2bbbbb97
+SHA256: 8de7636d9dd34fb5cf1313cc9b09473750fd7232652a1992db0ee02cf35dca5d
+SHA512: 12c118806dc47ea8ab06e4cdcb416f591b0c380e3cd70f17723907f28844e54018c5e8cc15f75bf30786774d42992d5ef27dcca36f605ce89e013b894a083ae9
+Homepage: https://github.com/PiRogueToolSuite/pirogue-colander-connector
+Description: CLI interface to transfer data from the PiRogue to Colander.
+
 Package: pirogue-dashboard
 Architecture: all
 Version: 1.0.1
