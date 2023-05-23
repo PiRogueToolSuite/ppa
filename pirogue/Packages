@@ -461,6 +461,23 @@ SHA512: 889de6fee0e23b6cb61ee61634f2550960d9e8551b03d50fe41d3bba3d902c7eacd7f31f
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue dashboards
 
+Package: pirogue-dashboard
+Architecture: all
+Version: 1.0.3
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 127
+Depends: grafana, influxdb
+Filename: ./pirogue-dashboard_1.0.3_all.deb
+Size: 19440
+MD5sum: ee7500e1c9d24b8f409a62032452a789
+SHA1: c2ee2d21eac70b0021af927e7ed86cd566e5b5ad
+SHA256: c94d8af523189b1f22d6515c550df25378dfccc4064ce496fc05abc1ca4de674
+SHA512: fed5abd986847ba1a93193836ec712a8c0c458dfbb6ad2369bf5cbd8f11f8e52ca4dc042abbab29a2add1bb2b3477b689cff469a451c101e73ca3d7bee78bd91
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue dashboards
+
 Package: pirogue-eve-collector
 Architecture: all
 Version: 1.0.2
