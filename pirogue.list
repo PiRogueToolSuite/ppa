@@ -1,2 +1,2 @@
-deb https://piroguetoolsuite.github.io/ppa/pirogue ./
-deb https://piroguetoolsuite.github.io/ppa/pirogue-3rd-party ./
+deb https://pts-project.org/ppa/pirogue ./
+deb https://pts-project.org/ppa/pirogue-3rd-party ./
