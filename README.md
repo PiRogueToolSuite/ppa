@@ -10,11 +10,6 @@ sudo curl -o /etc/apt/trusted.gpg.d/pirogue.asc   https://pts-project.org/ppa/Ke
 sudo apt update
 ```
 
-To install PiRogue features, run the following command
-```bash
-sudo apt install pirogue-base-pc
-```
-
 ## Installation on Raspberry Pi 
 Check the corresponding [documentation on PTS's website](https://pts-project.org/docs/pirogue/build-a-pirogue/).
 
