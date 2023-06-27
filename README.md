@@ -2,7 +2,7 @@
 
 ## Install the PiRogue packages repository
 
-To install PiRogue packages repository on you fresh Debian installation, execute the following command in a terminal:
+To install PiRogue packages repository on your fresh Debian installation, execute the following command in a terminal:
 
 ```bash
 sudo curl -o /etc/apt/sources.list.d/pirogue.list https://pts-project.org/ppa/pirogue.list
